@@ -1,0 +1,227 @@
+.header{
+	width:100%;
+	height:110px;
+	border-bottom:1px solid #EDECEC;
+}
+.header .header_middle{
+	width:62.5%;
+	height:100%;
+	margin:0 auto;
+}
+.header .header_middle img , .header .header_middle a{
+	display: inline-block;
+}
+.header .header_middle img{
+	padding: 37px 0 15px 38px;
+}
+.header .header_middle a{
+	font-size: 18px;
+	color:#E96328;
+	text-decoration: none;
+	padding: 54px 23px 0 39px;
+}
+/*内容*/
+.regis_content{
+	width:100%;
+	height:auto;
+}
+.regis_content .regis_content_middle{
+	width:62.5%;
+	height:auto;
+	margin: 20px auto 0;
+	border:1px solid #EBEBEB;
+}
+.regis_content .regis_content_middle .regis_middle_mid{
+	width:500px;
+	height:auto;
+	margin:0 auto;
+}
+.regis_content .regis_content_middle .regis_middle_mid .regis_title{
+	font-size: 19px;
+	text-align: center;
+	padding:41px 0 50px;
+}
+.input_fontsize{
+	width:15px;
+}
+/*用户名*/
+.regis_content .regis_content_middle .regis_middle_mid .regis_username{
+	width:100%;
+	height:auto;
+}
+.regis_content .regis_content_middle .regis_middle_mid .regis_username .regis_name_left{
+	width:100px;
+	padding:14px 0;
+	display: block;
+	text-align: right;
+}
+.regis_content .regis_content_middle .regis_middle_mid .regis_username .regis_name_leftinp{
+	width:360px;
+	padding:13px 0;
+	border:1px solid #DFDFDF;
+	background: #FFFFFF;
+	margin-left:5px;
+	text-indent: 15px;
+}
+/*短信验证码*/
+.regis_content .regis_content_middle .regis_middle_mid .regis_messcode{
+	width:100%;
+	height:auto;
+}
+.regis_content .regis_content_middle .regis_middle_mid .regis_messcode .messg_code_left{
+	width:100px;
+	padding:12px 0;
+	display: block;
+	text-align: right;
+	margin-top:20px;
+	clear: both;
+}
+.regis_content .regis_content_middle .regis_middle_mid .regis_messcode .messg_codeinp{
+	width:260px;
+	padding:13px 0;
+	border:1px solid #DFDFDF;
+	background: #FFFFFF;
+	margin-left:5px;
+	margin-top:20px;
+	text-indent: 15px;
+}
+.regis_content .regis_content_middle .regis_middle_mid .regis_messcode .message_click{
+	width:101px;
+	height:48px;
+	line-height: 48px;
+	background: #EAB631;
+	color:#FFFFFF;
+	border:none;
+	outline: none;
+	margin-top:20px;
+	font-size: 15px;
+	text-align: center;
+}
+/*密码*/
+.regis_content .regis_content_middle .regis_middle_mid .regis_password{
+	width:100%;
+	height:auto;
+}
+.regis_content .regis_content_middle .regis_middle_mid .regis_password .regis_password_left{
+	width:100px;
+	padding:14px 0;
+	display: block;
+	text-align: right;
+	clear: both;
+	margin-top:20px;
+}
+.regis_content .regis_content_middle .regis_middle_mid .regis_password .regis_pass_inp{
+	width:360px;
+	padding:13px 0;
+	border:1px solid #DFDFDF;
+	background: #FFFFFF;
+	margin-left:5px;
+	margin-top:20px;
+	text-indent: 15px;
+}
+/*确认密码*/
+.regis_content .regis_content_middle .regis_middle_mid .regis_surepassw{
+	width:100%;
+	height:auto;
+}
+.regis_content .regis_content_middle .regis_middle_mid .regis_surepassw .regis_psdw_left{
+	width:100px;
+	padding:14px 0;
+	display: block;
+	text-align: right;
+	clear: both;
+	margin-top:20px;
+}
+.regis_content .regis_content_middle .regis_middle_mid .regis_surepassw .regis_surepsd_inp{
+	width:360px;
+	padding:13px 0;
+	border:1px solid #DFDFDF;
+	background: #FFFFFF;
+	margin-left:5px;
+	margin-top:20px;
+	text-indent: 15px;
+}
+/*验证码*/
+.regis_content .regis_content_middle .regis_middle_mid .regis_verification{
+	width:100%;
+	height:auto;
+}
+.regis_content .regis_content_middle .regis_middle_mid .regis_verification .regis_verification_left{
+	width:100px;
+	padding:12px 0;
+	display: block;
+	text-align: right;
+	margin-top:20px;
+	clear: both;
+}
+.regis_content .regis_content_middle .regis_middle_mid .regis_verification .regis_verification_inp{
+	width:235px;
+	padding:13px 0;
+	border:1px solid #DFDFDF;
+	background: #FFFFFF;
+	margin:20px 25px 0 5px;
+	text-indent: 15px;
+}
+.regis_content .regis_content_middle .regis_middle_mid .regis_verification .regis_verification_img{
+	width:101px;
+	height:48px;
+	color:#FFFFFF;
+	border:none;
+	outline: none;
+	margin-top:20px;
+	font-size: 15px;
+	text-align: center;
+	background:url(../img/register_veritication_bg.png) no-repeat ;
+	background-size:100% 100%;
+	color:#EA692F;
+	font-size: 28px;
+	font-weight: bold;
+	line-height: 48px;
+}
+.regis_content .regis_content_middle .regis_middle_mid .register_ann{
+	width:360px;
+	background:#EAB631 ;
+	color:#FFFFFF;
+	font-size: 17px;
+	text-align: center;
+	padding:13px 0;
+	margin:110px 0 0 106px;
+	
+}
+.regis_content .regis_content_middle .regis_middle_mid .register_question{
+	text-align: right;
+	margin-right:30px;
+	color:#999999;
+	padding:24px 0 50px;
+}
+.regis_content .regis_content_middle .regis_middle_mid .register_question .direct_login{
+	color:#EDC046;
+	text-decoration: underline;
+}
+
+.land_record{
+	width:100%;
+	height:auto;
+	text-align: center;
+	font-size: 15px;
+	color: #999999;
+	padding:30px 0 80px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

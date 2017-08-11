@@ -1,0 +1,332 @@
+.Financial_Center_Jump{
+	margin-top:110px;
+	width:100%;
+	height: auto;
+}
+.Financial_Center_Jump .Financial_Center_Jump_middle{
+	width:62.5%;
+	height:auto;
+	margin:0 auto;
+	font-size: 16px;
+}
+.Financial_Center_Jump .Financial_Center_Jump_middle a{
+	margin:16px 7px;
+	display: inline-block;
+	color:#333333;
+	text-decoration: none;
+	cursor: pointer;
+}
+.Financial_Center_Jump .Financial_Center_Jump_middle .changecolor{
+	color:#E96328;
+}
+/*内容部分 */
+.Financial_Center_content{
+	width:100%;
+	height:1105px;
+}
+.Financial_Center_content .Financial_Center_content_middle{
+	width:62.5%;
+	height:1105px;
+	margin:0 auto;
+	background: #FFFFFF;
+}
+.Financial_Center_content .Financial_Center_content_middle .Financial_Center_contentmiddle_menu{
+	width:178px;
+	height:1105px;
+	background: #F8F8F8;
+	height:100%;
+	border:1px solid #EEEEEE;
+}
+.Financial_Center_content .Financial_Center_content_middle .Financial_Center_contentmiddle_menu li{
+	height:50px;
+	width:100%;
+	text-align: center;
+	padding:15px 0;
+	font-size: 17px;
+	background: #F8F8F8;
+	cursor: pointer;
+}
+/*选中的样式*/
+.Financial_Center_content .Financial_Center_content_middle .Financial_Center_contentmiddle_menu .Selected_state{
+	background: #FFFFFF;
+	color:#E96328;
+	border-left:4px solid #E96328;
+	margin-left:1px
+}
+/*箭头定位*/
+.Financial_Center_content .Financial_Center_content_middle .Financial_Center_contentmiddle_menu li .choices_arrow_one{
+	top:0 !important;
+	left:30px !important;
+}
+.Financial_Center_content .Financial_Center_content_middle .Financial_Center_contentmiddle_menu li .choices_arrow_two{
+	top:0 !important;
+	left:25px !important;
+	display: none;
+}
+.Financial_Center_content .Financial_Center_content_middle .Financial_Center_contentmiddle_menu li .choices_arrow_three{
+	top:0 !important;
+	left:25px !important;
+	display: none;
+}
+.Financial_Center_content .Financial_Center_content_middle .Financial_Center_contentmiddle_menu li .choices_arrow_four{
+	top:0 !important;
+	left:25px !important;
+	display: none;
+}
+.Financial_Center_content .Financial_Center_content_middle .Financial_Center_contentmiddle_menu li .choices_arrow_five{
+	top:0 !important;
+	left:35px !important;
+	display: none;
+}
+.Financial_Center_content .Financial_Center_content_middle .Financial_Center_contentmiddle_menu li .choices_arrow_six{
+	top:0 !important;
+	left:35px !important;
+	display: none;
+}
+.Financial_Center_content .Financial_Center_content_middle .Financial_Center_contentmiddle_menu li .choices_arrow_seven{
+	top:0 !important;
+	left:35px !important;
+	display: none;
+}
+.Financial_Center_content .Financial_Center_content_middle .Financial_Center_contentmiddle_menu li .choices_arrow_eight{
+	top:0 !important;
+	left:25px !important;
+	display: none;
+}
+/* 财务中心*/
+.Financial_Center_content .Financial_Center_content_middle .FinancialCenter{
+	width:auto;
+	height:auto;
+	padding-left:20px;
+}
+.Financial_Center_content .Financial_Center_content_middle .FinancialCenter .Financial_title{
+	width:100%;
+	font-size: 20px;
+	padding-top:40px;
+}
+.Financial_Center_content .Financial_Center_content_middle .FinancialCenter .Financial_title_linea{
+	width:100%;
+	height:auto;
+	padding-top:25px;
+}
+.Financial_Center_content .Financial_Center_content_middle .FinancialCenter .Financial_title_linea .total_assets{
+	font-size: 17px;
+	margin-top:7px;
+}
+.Financial_Center_content .Financial_Center_content_middle .FinancialCenter .Financial_title_linea .total_assets .total_assets_money{
+	font-size:16px ;
+	color:#E96328;
+}
+.Financial_Center_content .Financial_Center_content_middle .FinancialCenter .Financial_title_linea .total_assets .money_equivalent{
+	font-size:16px ;
+	color:#999999;
+	margin-left:5px;
+}
+.Financial_Center_content .Financial_Center_content_middle .FinancialCenter .Financial_title_linea .searchBox{
+	margin-left:200px; 
+}
+.Financial_Center_content .Financial_Center_content_middle .FinancialCenter .Financial_title_linea .searchBox .search_coin{
+	width:248px;
+	height:38px;
+	border:1px solid #999999;
+	border-radius: 5px;
+	font-size: 16px;
+	text-indent:40px;
+}
+.Financial_Center_content .Financial_Center_content_middle .FinancialCenter .Financial_title_linea .searchBox .searchCoin_img{
+	top:0;
+	left:-240px;
+}
+.Financial_Center_content .Financial_Center_content_middle .FinancialCenter .Financial_title_linea .hide_money{
+	font-size: 17px;
+	margin-top:7px;
+}
+.Financial_Center_content .Financial_Center_content_middle .FinancialCenter .Financial_title_linea .hide_money .hide_checkbox{
+	width:17px;
+	height:17px;
+}
+.Financial_Center_content .Financial_Center_content_middle .FinancialCenter .Financial_title_linea .hide_money .hide_lable{
+	font-weight: 100;
+}
+.Financial_Center_content .Financial_Center_content_middle .FinancialCenter .Financial_title_lineb{
+	width:100%;
+	height:auto;
+	padding-top:25px;
+}
+.Financial_Center_content .Financial_Center_content_middle .FinancialCenter .Financial_title_lineb .RMB_title{
+	margin-right:70px;
+	padding-top:15px;
+}
+.Financial_Center_content .Financial_Center_content_middle .FinancialCenter .Financial_title_lineb .RMB_title .rem_logo{
+	margin-right:10px;
+}
+.Financial_Center_content .Financial_Center_content_middle .FinancialCenter .Financial_title_lineb .RMB_title .rmb_name{
+	font-size: 17px;
+}
+.Financial_Center_content .Financial_Center_content_middle .FinancialCenter .Financial_title_lineb .rmb_useful{
+	font-size: 16px;
+	margin-right: 50px;
+	padding-top:25px;
+} 
+.Financial_Center_content .Financial_Center_content_middle .FinancialCenter .Financial_title_lineb .rmb_useful .rmb_money{
+	color:#2FB032;
+} 
+.Financial_Center_content .Financial_Center_content_middle .FinancialCenter .Financial_title_lineb .rmb_frozen{
+	font-size: 16px;
+	margin-right: 47px;
+	padding-top:25px;
+} 
+.Financial_Center_content .Financial_Center_content_middle .FinancialCenter .Financial_title_lineb .rmb_frozen .rmb_frozen_money{
+	color:#E96328;
+}
+.Financial_Center_content .Financial_Center_content_middle .FinancialCenter .Financial_title_lineb .rmb_total{
+	font-size: 16px;
+	margin-right:120px;
+	padding-top:25px;
+} 
+.Financial_Center_content .Financial_Center_content_middle .FinancialCenter .Financial_title_lineb .rmb_btn{
+	padding-top:25px;
+} 
+.Financial_Center_content .Financial_Center_content_middle .FinancialCenter .Financial_title_lineb .rmb_btn .rmb_recharge{
+	width:78px;
+	height:28px;
+	border:1px solid #E96328;
+	border-radius: 5px;
+	margin-right:26px;
+	background: #FFFFFF;
+}
+.Financial_Center_content .Financial_Center_content_middle .FinancialCenter .Financial_title_lineb .rmb_btn .rmb_withdrawals{
+	width:78px;
+	height:28px;
+	border:1px solid #2FB032;
+	border-radius: 5px;
+	background: #FFFFFF;
+}
+.Financial_Center_content .Financial_Center_content_middle .FinancialCenter .Financial_title_lineb .rmb_btn .rmb_recharge:hover{
+ 	background:#E96328 ;
+ 	color:#FFFFFF;
+ 	transition: .3s;
+}
+.Financial_Center_content .Financial_Center_content_middle .FinancialCenter .Financial_title_lineb .rmb_btn .rmb_withdrawals:hover{
+ 	background:#2FB032 ;
+ 	color:#FFFFFF;
+ 	transition: .3s;
+ 	-ms-transition: .3s;/*IE*/
+	-moz-transition: .3s; /* Firefox 4 */
+	-webkit-transition: .3s; /* Safari 和 Chrome */
+	-o-transition: .3s; /* Opera */
+}
+/*币种列表*/
+.Financial_Center_content .Financial_Center_content_middle .FinancialCenter .Currency_list{
+	width:100%;
+	height:50px;
+	margin-top:24px;
+	background: antiquewhite;
+}
+.Financial_Center_content .Financial_Center_content_middle .FinancialCenter .Currency_list .Currency_list_header{
+	width:100%;
+	height:50px; 
+	background: #F8F8F8;
+}
+.Financial_Center_content .Financial_Center_content_middle .FinancialCenter .Currency_list .Currency_list_header li{
+	float: left;
+	font-size: 17px;
+	line-height: 50px;
+}
+.Financial_Center_content .Financial_Center_content_middle .FinancialCenter .Currency_list .Currency_list_header .coin_class{
+	padding:0 110px 0 83px;
+}
+.Financial_Center_content .Financial_Center_content_middle .FinancialCenter .Currency_list .Currency_list_header .useful_balance{
+	padding-right:85px;
+}
+.Financial_Center_content .Financial_Center_content_middle .FinancialCenter .Currency_list .Currency_list_header .currencu_frozen{
+	padding-right:88px;
+}
+.Financial_Center_content .Financial_Center_content_middle .FinancialCenter .Currency_list .Currency_list_header .market_value{
+	padding-right:93px; 
+}
+.Financial_Center_content .Financial_Center_content_middle .FinancialCenter .Currency_list .Currency_list_header .currency_total{
+	padding-right:150px; 
+}
+.Financial_Center_content .Financial_Center_content_middle .FinancialCenter .Currency_list .currency_content{
+	width:100%;
+	height:729px;
+	display: inline-block;
+	overflow-y: scroll;
+}
+.Financial_Center_content .Financial_Center_content_middle .FinancialCenter .Currency_list .currency_content .currency_content_tr{
+	width:100%;
+	height:80px;
+	line-height: 80px;
+}
+/*偶数背景变色*/
+.currency_content_tr_odd{
+	background: #F8F8F8;
+}
+.Financial_Center_content .Financial_Center_content_middle .FinancialCenter .Currency_list .currency_content .currency_content_tr td{
+	display: inline-block;
+	font-size: 17px;
+}
+.Financial_Center_content .Financial_Center_content_middle .FinancialCenter .Currency_list .currency_content .currency_content_tr .currency_name{
+	width:170px;
+	padding-left: 5px;
+} 
+.Financial_Center_content .Financial_Center_content_middle .FinancialCenter .Currency_list .currency_content .currency_content_tr .currency_name .currency_name_img{
+	width:40px;
+	height:40px;
+	margin-right:5px;
+}
+.Financial_Center_content .Financial_Center_content_middle .FinancialCenter .Currency_list .currency_content .currency_content_tr .content_useful{
+	width:125px;
+	text-align: center;
+} 
+.Financial_Center_content .Financial_Center_content_middle .FinancialCenter .Currency_list .currency_content .currency_content_tr .content_frozen{
+	width:110px;
+	text-align: center;
+} 
+.Financial_Center_content .Financial_Center_content_middle .FinancialCenter .Currency_list .currency_content .currency_content_tr .content_market{
+	width:125px;
+	text-align: center;
+	cursor: pointer;
+}
+.Financial_Center_content .Financial_Center_content_middle .FinancialCenter .Currency_list .currency_content .currency_content_tr .content_total{
+	width:125px;
+	text-align: center;
+}
+.Financial_Center_content .Financial_Center_content_middle .FinancialCenter .Currency_list .currency_content .currency_content_tr .content_butt{
+	width:150px;
+}
+.Financial_Center_content .Financial_Center_content_middle .FinancialCenter .Currency_list .currency_content .currency_content_tr .content_butt .butt_charging{
+	color:#E96328;
+	text-decoration: none;
+	padding-left:20px;
+}
+.Financial_Center_content .Financial_Center_content_middle .FinancialCenter .Currency_list .currency_content .currency_content_tr .content_butt .butt_currency{
+	color:#2FB032;
+	text-decoration: none;
+	padding-left:20px;
+}
+.Financial_Center_content .Financial_Center_content_middle .FinancialCenter .Currency_list .currency_content .currency_content_tr .content_transaction{
+	width:80px;
+	height:auto;
+}
+.Financial_Center_content .Financial_Center_content_middle .FinancialCenter .Currency_list .currency_content .currency_content_tr .content_transaction .transaction_btn{
+	width:80px;
+	height:30px;
+	border:1px solid #E96328;
+	background: #FFFFFF;
+	outline: none;
+	color:#E96328;
+	border-radius: 5px;
+	font-size: 15px;
+	line-height: 30px;
+}
+.Financial_Center_content .Financial_Center_content_middle .FinancialCenter .Currency_list .currency_content .currency_content_tr .content_transaction .transaction_btn:hover{
+	background: #E96328;
+	color:#FFFFFF;
+	transition: .3s;
+	-ms-transition: .3s;/*IE*/
+	-moz-transition: .3s; /* Firefox 4 */
+	-webkit-transition: .3s; /* Safari 和 Chrome */
+	-o-transition: .3s; /* Opera */
+}

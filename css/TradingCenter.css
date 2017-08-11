@@ -1,0 +1,284 @@
+
+.TradingCenter_banner{
+	width:100%;
+	margin:110px auto 0;
+}
+.TradingCenter_banner img{
+	width:100%;
+	background-size:100% 100%;
+	display: block;
+}
+.TradingCenter_announcement{
+	width:100%;
+	height:50px;
+	background: #F2F2F2;
+}
+.TradingCenter_announcement .TradingCenter_announcement_middle{
+	width:62.5%;
+	height:100%;
+	margin:0 auto;
+	text-align: center;
+}
+.TradingCenter_announcement .TradingCenter_announcement_middle img{
+	display: inline-block;
+	padding:6px 0;
+}
+.TradingCenter_announcement .TradingCenter_announcement_middle p{
+	display: inline-block;
+	padding:18px 0 14px 21px;
+	font-size: 16px;
+	color:#E96328;
+}
+.Currency_list_header{
+	width:100%;
+}
+.Currency_list_header .Currency_list_header_middle{
+	width:62.5%;
+	height:auto;
+	margin:0 auto;
+}
+.Currency_list_header .Currency_list_header_middle span{
+	width:auto;
+	display: inline-block;
+	padding:21px 35px 10px 35px;
+	font-size: 19px;
+	color:#333333;
+}
+.Currency_list_header .Currency_list_header_middle .Digital_underline{
+	border-bottom:2px solid #eb6519; 
+	color:#eb6519;
+}
+.Currency_list_content{
+	width:100%;
+	height:50px;
+	background: #E7E7E7;
+	
+}
+.Currency_list_content .Currency_list_content_middle{
+	width:62.5%;
+	margin:0 auto;
+	height:50px
+}
+.Currency_list_content .Currency_list_content_middle .Currency_list_content_title{
+	width:auto;
+	padding:19px 0 8px 0;
+	
+	font-size:16px ;
+}
+.Currency_list_content .Currency_list_content_middle .Currency_list_content_title > div{
+	width:auto;
+	color:#333333;
+	float: left;
+}
+.Currency_list_content .Currency_list_content_middle .Currency_list_content_title .currency_title{
+	width:205px;
+	text-align: center;
+}
+.Currency_list_content .Currency_list_content_middle .Currency_list_content_title .Latest_transaction_price{
+	width:170px;
+	text-align: center;
+}
+.Currency_list_content .Currency_list_content_middle .Currency_list_content_title .volume{
+	width:180px;
+	text-align: center;
+}
+.Currency_list_content .Currency_list_content_middle .Currency_list_content_title .Turnover{
+	width:190px;
+	text-align: center;
+}
+.Currency_list_content .Currency_list_content_middle .Currency_list_content_title .Day_highs_and_lows{
+	width:165px;
+	text-align: center;
+}
+.Currency_list_content .Currency_list_content_middle .Currency_list_content_title .Price_trend{
+	width:155px;
+	text-align: center;
+}
+/*点击文字变色*/
+.Currency_list_content .Currency_list_content_middle .Currency_list_content_title .change_color{
+	color:#E96328;
+}
+
+
+.Currency_list_content .Currency_list_content_middle .table_content{
+	width:100%;
+	height:auto;
+}
+/*涨跌*/
+.Currency_list_content .Currency_list_content_middle .table_content .Day_highs_and_lows .day_lows{
+	color:#E96328;
+}
+.Currency_list_content .Currency_list_content_middle .table_content .Day_highs_and_lows .day_highs{
+	color:#2FB032;
+}
+.Currency_list_content .Currency_list_content_middle .table_content .tr_single{
+	width:100%;
+	height:50px
+	border-bottom:1px solid #F2F2F2;
+	font-size: 15px;
+}
+/*最后一个tr没有下划线*/
+.Currency_list_content .Currency_list_content_middle .table_content .delete_underline{
+	border-bottom:none;
+}
+.Currency_list_content .Currency_list_content_middle .table_content .tr_single:hover{
+	background: #FCEFE8;
+	cursor: pointer;
+	transition: .2s;
+}
+.Currency_list_content .Currency_list_content_middle .table_content .tr_single td{
+	width:auto;
+	height:100%;
+	display: inline-block;
+	text-align: center;
+}
+.Currency_list_content .Currency_list_content_middle .table_content .tr_single .logo{
+	width:auto;
+	width:205px;
+	text-align: left;
+	/*margin-right:30px*/
+	text-indent: 35px;
+	/*background: navajowhite;*/
+}
+.Currency_list_content .Currency_list_content_middle .table_content .tr_single .logo a{
+	width:auto;
+	line-height:35px;
+	color:#333333;
+	text-decoration: none;
+}
+.Currency_list_content .Currency_list_content_middle .table_content .tr_single .logo a:hover{
+	color:#eb6519;
+}
+.Currency_list_content .Currency_list_content_middle .table_content .tr_single .logo a img{
+	margin-right:5px;
+}
+.Currency_list_content .Currency_list_content_middle .table_content .tr_single .The_latest_price{
+	width:130px;
+	height:50px;
+	padding:16px 0 3px 0;
+	margin-right:40px;
+	/*background: hotpink;*/
+}
+.Currency_list_content .Currency_list_content_middle .table_content .tr_single .volume_of_business{
+	width:150px;
+	height:50px;
+	padding:16px 0 3px 0;
+	margin-right:30px;
+}
+.Currency_list_content .Currency_list_content_middle .table_content .tr_single .trading_volume{
+	width:140px;
+	height:50px;
+	padding:16px 0 3px 0;
+	margin-right:60px;
+}
+.Currency_list_content .Currency_list_content_middle .table_content .tr_single .Day_highs_and_lows{
+	width:100px;
+	height:50px;
+	padding:16px 0 3px 0;
+	margin-right:45px;
+}
+.Currency_list_content .Currency_list_content_middle .table_content .tr_single .price_trend{
+	width:100px;
+	height:50px;
+	padding:5px 0 3px 0;
+	margin-right:45px;
+}
+.Currency_list_content .Currency_list_content_middle .table_content .tr_single .Go_Trade{
+	width:76px;
+	height:32px;
+	color:#E96328;
+	line-height: 32px;
+	margin:5px 0 0 40px;
+}
+.Currency_list_content .Currency_list_content_middle .table_content .tr_single .Go_Trade:hover{
+	background: #E96328;
+	color:white;
+	border-radius: 5px;
+	transition: .4s;
+}
+.Professional_safety_guarantee{
+	width:100%;
+	clear: both;
+	border-top:1px solid #E6E6E6;
+}
+.Professional_safety_guarantee .Professional_safety_guarantee_middle{
+	width:62.5%;
+	height:auto;
+	margin:0 auto;
+}
+.Professional_safety_guarantee .Professional_safety_guarantee_middle .Professional_safety_guarantee_headlines{
+	text-align: center;
+	padding-top:80px;
+}
+.Professional_safety_guarantee .Professional_safety_guarantee_middle .Professional_safety_guarantee_headlines .Professional_safety_guarantee_headlines_left{
+	font-size: 33px;
+	color:#333333;
+	padding-right:20px;
+	border-right:3px solid #999999;
+}
+.Professional_safety_guarantee .Professional_safety_guarantee_middle .Professional_safety_guarantee_headlines .Professional_safety_guarantee_headlines_right{
+	font-size: 20px;
+	color:#999999;
+	padding-left:17px;
+}
+.Professional_safety_guarantee .Professional_safety_guarantee_middle .Content_of_security_protection{
+	width:100%;
+	height:auto;
+	padding-top:85px;
+}
+.Professional_safety_guarantee .Professional_safety_guarantee_middle .Content_of_security_protection .Capital_security{
+	width:25%;
+	height:auto;
+	text-align: center;
+}
+.Professional_safety_guarantee .Professional_safety_guarantee_middle .Content_of_security_protection .Capital_security .Capital_security_title{
+	padding-top:70px;
+	font-size: 24px;
+}
+.Professional_safety_guarantee .Professional_safety_guarantee_middle .Content_of_security_protection .Capital_security .Capital_security_cont{
+	padding:15px 30px 0;
+	font-size: 14px;
+	line-height: 22px;
+}
+.Professional_safety_guarantee .Professional_safety_guarantee_middle .Content_of_security_protection .System_reliability{
+	width:25%;
+	height:auto;
+	text-align: center;
+}
+.Professional_safety_guarantee .Professional_safety_guarantee_middle .Content_of_security_protection .System_reliability .System_reliability_title{
+	padding-top:70px;
+	font-size: 24px;
+}
+.Professional_safety_guarantee .Professional_safety_guarantee_middle .Content_of_security_protection .System_reliability .System_reliability_cont{
+	padding:15px 25px 0;
+	font-size: 14px;
+	line-height: 22px;
+}
+.Professional_safety_guarantee .Professional_safety_guarantee_middle .Content_of_security_protection .Legal_compliance{
+	width:25%;
+	height:auto;
+	text-align: center;
+}
+.Professional_safety_guarantee .Professional_safety_guarantee_middle .Content_of_security_protection .Legal_compliance .Legal_compliance_title{
+	padding-top:70px;
+	font-size: 24px;
+}
+.Professional_safety_guarantee .Professional_safety_guarantee_middle .Content_of_security_protection .Legal_compliance .Legal_compliance_cont{
+	padding:15px 30px 0;
+	font-size: 14px;
+	line-height: 22px;
+}
+.Professional_safety_guarantee .Professional_safety_guarantee_middle .Content_of_security_protection .Quick_convenient{
+	width:25%;
+	height:auto;
+	text-align: center;
+}
+.Professional_safety_guarantee .Professional_safety_guarantee_middle .Content_of_security_protection .Quick_convenient .Quick_convenient_title{
+	padding-top:70px;
+	font-size: 24px;
+}
+.Professional_safety_guarantee .Professional_safety_guarantee_middle .Content_of_security_protection .Quick_convenient .Quick_convenient_cont{
+	padding:15px 30px 0;
+	font-size: 14px;
+	line-height: 22px;
+}

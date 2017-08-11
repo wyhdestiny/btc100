@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="renderer" content="webkit">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    	<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>BTC100 | 专业数字资产交易平台</title>
+		<link rel="shortcut icon" href="../img/btc_logo100.jpg" />
+		<link rel="stylesheet" type="text/css" href="../css/Rester.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/Normalize.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/index.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/Nav.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/bootstrap-3.3.7-dist/css/bootstrap.css"/>
+		<script src="../js/jquery-2.1.4.min.js"></script>
+		<script src="../js/index.js"></script>
+		<script src="../css/bootstrap-3.3.7-dist/js/bootstrap.js"></script>
+		<script src="../js/bianse.js"></script>
+	</head>
+	<style type="text/css">
+		.user_appear{
+			/*display: none;*/
+			width:316px;
+			height:278px;
+			background: url(../img/login_later-bg.png) no-repeat;
+			background-size: 100% 100%;
+			top:99px;
+			left:62%;
+			color:#C8C8C8;
+		}
+		.name_appear{
+			display: block;
+			transition-delay:3s ;
+			
+		}
+		.user_appear .appear_user{
+			padding-top:40px;
+			text-indent: 51px;
+			width:100%;
+			font-size: 16px;
+			/*color:#999999;*/
+		}
+		.user_appear .appear_uid{
+			text-indent: 63px;
+			width:100%;
+			font-size: 16px;
+			/*color:#999999;*/
+		}
+		.user_appear .appear_total{
+			font-size: 16px;
+			text-indent: 52px;
+			color:#C8C8C8;
+		}
+		.user_appear .appear_total span{
+			color:#E96328;
+			font-size: 17px;
+		}
+		
+		/*.user_appear .appear_money{
+			width:92%;
+			height:50px;
+			margin:0 4%;
+			padding-top:15px;
+			line-height: 30px;
+			text-align: center;
+			border-bottom:1px dashed #C8C8C8;
+		}
+		.user_appear .appear_money .appear_assets{
+			width:50%;
+			height:30px;
+		}
+		.user_appear .appear_money .assets_frozen{
+			width:50%;
+			height:30px;
+		}*/
+		.appear_assets{
+			text-indent:34px;
+			width:100%;
+			font-size: 14px;
+			/*color:#999999;*/
+		}
+		.assets_frozen{
+			text-indent: 34px;
+			width:100%;
+			font-size: 14px;
+			padding-bottom:10px;
+			/*color:#999999;*/
+		}
+		.user_appear  .appear_btn{
+			margin:0 4%
+			width:92%;
+			height:50px;
+			border-top:1px dashed #C8C8C8;
+			padding-top:15px;
+			margin-top:10px;
+		}
+		.user_appear  .appear_btn .appear_recharge{
+			width:94px;
+			height:38px;
+			border:1px solid #E96328;
+			border-radius: 5px;
+			color: #E96328;
+			margin-left:30px;
+			background: none;
+			font-size:15px;
+			outline: none;
+		}
+		.user_appear  .appear_btn .appear_recharge:hover{
+			background:#E96328 ;
+			color:white;
+			transition: .3s;
+		}
+		.user_appear  .appear_btn .appear_withdrawals{
+			width:94px;
+			height:38px;
+			border:1px solid #2FB032;
+			border-radius: 5px;
+			color:#2FB032;
+			margin-left:65px;
+			background: none;
+			font-size:15px;
+			outline: none;
+		}
+		.user_appear  .appear_btn .appear_withdrawals:hover{
+			background:#2FB032 ;
+			color:white;
+			transition: .3s;
+		}
+		
+		
+		
+	</style>
+	<body>
+		<div class="Navigation_bar" id="nav" >
+			<div class="Navigation_bar_centered">
+				<div class="nav_logo fl">
+					<a href="javescript:;">
+						<img src="../img/btc_logo.png"/>
+					</a>
+				</div>
+				<div class="Navigation_bar_contents fr">
+					<li class="Menu_content first_Underline select_text cur" style="color:#eb6519">首页</li>
+					<li class="Menu_content cur">交易中心</li>
+					<li class="Menu_content cur">财务中心</li>
+					<li class="Menu_content cur">安全中心</li>
+					<li class="Menu_content cur">帮助中心</li>
+					<li class="Menu_content cur">公告</li>
+					<li class="Menu_content cur username">
+						13693013340
+						<img src="../img/login_later_top.png" class=""/>
+						
+					</li>
+					<li class="Menu_content last_Menu_content cur">退出</li>
+				</div>
+				<div class="user_appear abs"  >
+					<p class="appear_user">用户名：<span>13693013340</span></p>
+					<p class="appear_uid">U&nbsp;I&nbsp;D：<span>256354</span></p>
+					<p class="appear_total">总资产：<span>10.00</span></p>
+					<!--<div class="appear_money">-->
+					<p class="appear_assets">
+						<span class="assets_available_span ">可用(CNY)：<span>10.0000000000000</span></span>
+					</p>
+					<p class="assets_frozen">
+						<span class="assets_frozen_span ">冻结(CNY)：<span>22.0000000000000000</span></span>
+					</p>
+					<!--</div>-->
+					<p class="appear_btn">
+						<button class="appear_recharge">充值</button>
+						<button class="appear_withdrawals">提现</button>
+					</p>
+				</div>
+			</div>
+		</div>
+		<script type="text/javascript">
+			$(".username").mousemove(function(){
+				$(this).css("border-bottom","none")
+				$(this).css("color","#E96228")
+				$(".username img").attr('src','../img/login_later_bottom.png');
+			    $(".user_appear").show();
+			})
+			$(".username").mouseout(function(){
+				$(this).css("color","#999999")
+				$(".username img").attr('src','../img/login_later_top.png');
+				setTimeout(function () {
+			        $(".user_appear").hide();
+			    },5000);
+			})
+//			$(".user_appear").mousemove(function(){
+//				$(".username img").attr('src','../img/login_later_bottom.png');
+//				$(".user_appear").show();
+//			})
+//			$(".user_appear").mouseout(function(){
+//				$(".username img").attr('src','../img/login_later_top.png');
+//				$(".user_appear").hide();
+//			})
+
+			
+		</script>
+	</body>
+</html>

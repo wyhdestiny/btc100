@@ -1,0 +1,133 @@
+.header{
+	width:100%;
+	height:110px;
+	border-bottom:1px solid #EDECEC;
+}
+.header .header_middle{
+	width:62.5%;
+	height:100%;
+	margin:0 auto;
+}
+.header .header_middle img , .header .header_middle a{
+	display: inline-block;
+}
+.header .header_middle img{
+	padding: 37px 0 15px 38px;
+}
+.header .header_middle a{
+	font-size: 18px;
+	color:#E96328;
+	text-decoration: none;
+	padding: 54px 23px 0 39px;
+}
+/*内容*/
+.register_notice{
+	width:100%;
+	height:auto;
+}
+.register_notice .register_notice_middle{
+	width:62.5%;
+	height:auto;
+	margin:20px auto 0;
+	background: #FBFAF8;
+	border:1px solid #EBEBEB;
+}
+.register_notice .register_notice_middle .register_title{
+	text-align: center;
+	font-size: 20px;
+	padding:30px 0;
+	margin:0 24px;
+	border-bottom:1px solid #EBEBEB;
+}
+.regist_need_title{
+	margin-left:68px;
+	font-size: 20px;
+	padding-top:15px;
+}
+.regist_need_cont{
+	margin-left:97px;
+	font-size:16px;
+}
+.regist_import_color{
+	color:#EA703E;
+}
+.regist_agreement{
+	margin-left:70px;
+	font-size: 14px;
+	color:#999999;
+	margin-top:15px
+}
+.register_notice .register_notice_middle  .regist_agreement .check{
+	width:17px;
+	height:17px;
+}
+.register_notice .register_notice_middle  .regist_agreement .need_a{
+	color:#2596E8;
+	text-decoration: underline;
+}
+.register_notice .register_notice_middle .regist_needbtn{
+	text-align: center;
+	margin:50px 0 50px;
+}
+.register_notice .register_notice_middle .regist_needbtn .next_register{
+	width:300px;
+	height:44px;
+	color:#FFFFFF;
+	font-size: 18px;
+	background: #EAB631;
+	border-radius: 0;
+}
+.register_notice .register_notice_middle .regist_needbtn .cancel{
+	color:#2596E8;
+	margin-left:30px;
+	
+}
+/*footer*/
+.register_record{
+	width:100%;
+	height:auto;
+	text-align: center;
+	font-size: 15px;
+	color: #999999;
+	padding:30px 0 80px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

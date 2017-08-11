@@ -1,0 +1,593 @@
+body,html{
+	width:100%;
+	min-width: 1900px;
+	height:auto;
+}
+/*banner*/
+.banner{
+	width:100%;
+	margin:0 auto;
+	text-align: center;
+	z-index: -1;
+	position: relative;
+}
+.banner .banner_ul{
+	padding:0;
+	margin:0;
+	width:100%;
+	height:900px;
+}
+.banner .banner_ul li{
+	float: left;
+	list-style: none;
+	width:100%;
+	height:900px;
+}
+.banner .banner_ul li img{
+	width:100%;
+	height:100%;
+	background-size: 100% 100%;
+}
+
+/*涨幅条*/
+.K_tab{
+	width:100%;
+	height:auto;
+	/*background: blue;*/
+}
+.K_tab .Discount_bar{
+	width:100%;
+	height:120px;
+	background: rgba(0,0,0,.6);
+	top:-120px;
+}
+.K_tab .Discount_bar .Discount_bar_ul{
+	width:62.5%;
+	margin:0 auto;
+}
+.K_tab .Discount_bar .Discount_bar_ul .Discount_bar_ul_li{
+	width:20%;
+	float:left;
+	padding:24px 0;
+	text-align: center;
+	z-index: 99999;
+}
+.K_tab .Discount_bar .Discount_bar_ul .Discount_bar_ul_li a{
+	cursor: pointer;
+	display: block;
+	text-decoration: none;
+}
+.K_tab .Discount_bar .Discount_bar_ul .Discount_bar_ul_li a .Currency_name{
+	font-size: 17px;
+	color:#FFFFFF;
+	border-left:1px solid #484A4A;
+}
+.K_tab .Discount_bar .Discount_bar_ul .DiscountBar_end a{
+	border-right:1px solid #484A4A;
+}
+/*降低*/
+.K_tab .Discount_bar .Discount_bar_ul .DiscountBar_reduce a .Dollar_gain{
+	font-size: 11px;
+	color:#BBFF9E;
+	border-left:1px solid #484A4A;
+}
+.K_tab .Discount_bar .Discount_bar_ul .DiscountBar_reduce a .Transaction_price{
+	font-size: 23px;
+	font-weight: bold;
+	color:#BBFF9E;
+	border-left:1px solid #484A4A;
+}
+/*增加*/
+.K_tab .Discount_bar .Discount_bar_ul .DiscountBar_add a .Dollar_gain{
+	font-size: 11px;
+	color:#EB6519;
+	border-left:1px solid #484A4A;
+}
+.K_tab .Discount_bar .Discount_bar_ul .DiscountBar_add a .Transaction_price{
+	font-size: 23px;
+	font-weight: bold;
+	color:#EB6519;
+	border-left:1px solid #484A4A;
+}
+.K_tab .Discount_bar .Discount_bar_ul .DiscountBar_reduce .Arrow_box{
+	top:30px;
+	right:20px;
+}
+.K_tab .Discount_bar .Discount_bar_ul .DiscountBar_add .Arrow_box{
+	top:20px;
+	right:20px;
+}
+.K_tab .Discount_bar .Discount_bar_ul .Discount_bar_ul_li .kline_arrow{
+	bottom:-4px;
+	left:50%;
+}
+.k_line_chart{
+	width:100%;
+	height:300px;
+	top:-120px;
+}
+.k_line_chart .k_line{
+	width:62.5%;
+	height:300px;
+	margin:0 auto 0;
+}
+.k_line_chart .k_line img{
+	width: 100%;
+	height: 100%;
+	background-size: 100% 100%;
+}
+/*k图文字*/
+.K_diagram_text{
+	width:100%;
+	height:100px;
+	font-size: 17px;
+	color:#333333;
+	line-height:100px;
+}
+.K_diagram_text .K_pictures{
+	margin-left:21px;
+}
+.K_diagram_text .K_pictures img{
+	width:23px;
+	height:17px;
+}
+.K_diagram_text .Highest_price{
+	margin-left:11px;
+}
+.K_diagram_text .Minimum_price{
+	margin-left:25px;
+}
+.K_diagram_text .volume{
+	margin-left:25px;
+}
+.K_diagram_text .View_details{
+	font-size: 14px;
+	text-align: center;
+	margin-right:30px;
+}
+.K_diagram_text .View_details .View_details_click{
+	width:90px;
+	height:30px;
+	line-height: 30px;
+	background: #E96228;
+	color:white;
+	border-radius: 4px;
+	border:none;
+	outline: none;
+}
+/*新闻中心*/
+.News_center_background{
+	width:100%;
+	height:868px;
+	background: url(../img/index_news.jpg) no-repeat 0 0;
+	background-size: 100% 100%;
+	
+}
+.News_center_background .News_centre_content{
+	width:100%;
+	height:100%;
+}
+.News_center_background .News_centre_content .Central_News_section{
+	width:62.5%;
+	height:100%;
+	margin:0 auto;
+}
+.News_center_background .News_centre_content .Central_News_section .News_Center_title{
+	text-align: center;
+	padding-top:90px;
+}
+.News_center_background .News_centre_content .Central_News_section .News_Center_title_left{
+	font-size: 33px;
+	color:#333333;
+	padding-right:20px;
+	border-right:3px solid #999999;
+}
+
+.News_center_background .News_centre_content .Central_News_section .News_Center_title_right{
+	font-size: 20px;
+	color:#999999;
+	padding-left:17px;
+}
+.News_center_background .News_centre_content .Central_News_section .Press_center_button{
+	width:640px;
+	height:50px;
+	margin:53px auto 0;
+}
+.News_center_background .News_centre_content .Central_News_section .Press_center_button .PressCenter{
+	width:160px;
+	height:50px;
+	border:1px solid #E96228;
+	color:#E96228;
+	font-size:21px;
+	border-radius: 5px;
+	float: left;
+	text-align: center;
+	line-height: 50px;
+	margin-right:80px;
+	font-weight:580;
+}
+.News_center_background .News_centre_content .Central_News_section .Press_center_button .PressCenter_first{
+	background:#E96228 ;
+	color:white;
+	transition: .3s;
+	-ms-transition: .3s;/*IE*/
+	-moz-transition: .3s; /* Firefox 4 */
+	-webkit-transition: .3s; /* Safari 和 Chrome */
+	-o-transition: .3s; /* Opera */
+}
+.News_center_background .News_centre_content .Central_News_section .Press_center_button .PressCenter_last{
+	margin-right:0
+}
+.News_center_background .News_centre_content .Central_News_section .News_content{
+	width:100%;
+	height:540px;
+	background: white;
+	margin-top:41px;
+}
+/*一*/
+.News_center_background .News_centre_content .Central_News_section .News_content .News_content_details{
+	padding:50px 40px 0;
+	width:100%;
+	height:540px;
+}
+
+.News_center_background .News_centre_content .Central_News_section .News_content .News_content_details .News_details_left_upper{
+	width:540px;
+	height:auto;
+	margin-bottom:54px;
+}
+.News_center_background .News_centre_content .Central_News_section .News_content .News_content_details .News_details_left_upper .Press_details_left_last_date{
+	width:80px;
+	height:80px;
+	text-align: center;
+	border:1px solid #E96228;
+	color:#E96228;
+}
+.News_center_background .News_centre_content .Central_News_section .News_content .News_content_details .News_details_left_upper .Press_details_left_last_date .News_date{
+	font-size: 50px;
+	font-weight: bold;
+} 
+.News_center_background .News_centre_content .Central_News_section .News_content .News_content_details .News_details_left_upper .Press_details_left_last_date .News_year{
+	top:-14px;
+	left:0;
+	right:0;
+	font-size: 14px;
+}
+.News_center_background .News_centre_content .Central_News_section .News_content .News_content_details .News_details_left_upper .Top_left_for_news_details{
+	width:440px;
+}
+.News_center_background .News_centre_content .Central_News_section .News_content .News_content_details .News_details_left_upper .Top_left_for_news_details .News_headlines{
+	display: inline-block;
+	font-size: 23px;
+}
+.News_center_background .News_centre_content .Central_News_section .News_content .News_content_details .News_details_left_upper .Top_left_for_news_details .Brief_details_of_the_news{
+	display: inline-block;
+	margin-top:5px;
+	font-size: 16px;
+	color:#666666;
+}
+/*二*/
+.News_center_background .News_centre_content .Central_News_section .News_content .News_content_details_two{
+	padding:50px 40px 0;
+}
+
+.News_center_background .News_centre_content .Central_News_section .News_content .News_content_details_two .News_details_left_upper{
+	width:540px;
+	height:auto;
+	margin-bottom:54px;
+}
+.News_center_background .News_centre_content .Central_News_section .News_content .News_content_details_two .News_details_left_upper .Press_details_left_last_date{
+	width:80px;
+	height:80px;
+	text-align: center;
+	border:1px solid #E96228;
+	color:#E96228;
+}
+/*悬停变颜色*/
+.News_center_background .News_centre_content .Central_News_section .News_content .News_content_details_two .News_details_left_upper .Press_details_left_last_date .News_date{
+	font-size: 50px;
+	font-weight: bold;
+	
+} 
+.News_center_background .News_centre_content .Central_News_section .News_content .News_content_details_two .News_details_left_upper .Press_details_left_last_date .News_year{
+	top:-14px;
+	left:0;
+	right:0;
+	font-size: 14px;
+}
+.News_center_background .News_centre_content .Central_News_section .News_content .News_content_details_two .News_details_left_upper .Top_left_for_news_details{
+	width:440px;
+}
+.News_center_background .News_centre_content .Central_News_section .News_content .News_content_details_two .News_details_left_upper .Top_left_for_news_details .News_headlines{
+	display: inline-block;
+	font-size: 23px;
+}
+.News_center_background .News_centre_content .Central_News_section .News_content .News_content_details_two .News_details_left_upper .Top_left_for_news_details .Brief_details_of_the_news{
+	display: inline-block;
+	margin-top:5px;
+	font-size: 16px;
+	color:#666666;
+}
+/*三*/
+.News_center_background .News_centre_content .Central_News_section .News_content .News_content_details_three{
+	padding:50px 40px 0;
+}
+
+.News_center_background .News_centre_content .Central_News_section .News_content .News_content_details_three .News_details_left_upper{
+	width:540px;
+	height:auto;
+	margin-bottom:54px;
+}
+.News_center_background .News_centre_content .Central_News_section .News_content .News_content_details_three .News_details_left_upper .Press_details_left_last_date{
+	width:80px;
+	height:80px;
+	text-align: center;
+	border:1px solid #E96228;
+	color:#E96228;
+}
+/*悬停变颜色*/
+.News_center_background .News_centre_content .Central_News_section .News_content .News_content_details .News_details_left_upper .Press_details_left_last_date:hover{
+	background: #E96228;
+	color:white;
+}
+.News_center_background .News_centre_content .Central_News_section .News_content .News_content_details_three .News_details_left_upper .Press_details_left_last_date .News_date{
+	font-size: 50px;
+	font-weight: bold;
+	
+} 
+.News_center_background .News_centre_content .Central_News_section .News_content .News_content_details_three .News_details_left_upper .Press_details_left_last_date .News_year{
+	top:-14px;
+	left:0;
+	right:0;
+	font-size: 14px;
+}
+.News_center_background .News_centre_content .Central_News_section .News_content .News_content_details_three .News_details_left_upper .Top_left_for_news_details{
+	width:440px;
+}
+.News_center_background .News_centre_content .Central_News_section .News_content .News_content_details_three .News_details_left_upper .Top_left_for_news_details .News_headlines{
+	display: inline-block;
+	font-size: 23px;
+}
+.News_center_background .News_centre_content .Central_News_section .News_content .News_content_details_three .News_details_left_upper .Top_left_for_news_details .Brief_details_of_the_news{
+	display: inline-block;
+	margin-top:5px;
+	font-size: 16px;
+	color:#666666;
+}
+
+/*查看更多*/
+.News_content .See_more_news{
+	width:100%;
+	font-size: 19px;
+	text-align: center;
+	color:#E96228;
+	margin-top:10px;
+	cursor: pointer;
+}
+/*联系我们*/
+.Contact_us{
+	width:100%;
+	height:571px;
+	background: url(../img/index_contact.jpg) no-repeat;
+	background-size: 100% 100%;
+}
+.Contact_us .Contact_us_in_the_middle{
+	width:62.5%;
+	height:auto;
+	margin:0 auto;
+}
+.Contact_us .Contact_us_in_the_middle .Contact_us_for_headlines{
+	text-align: center;
+	padding-top:90px;
+}
+.Contact_us .Contact_us_in_the_middle .Contact_us_for_headlines .Contact_us_for_headlines_left{
+	font-size: 33px;
+	color:#FFFFFF;
+	padding-right:20px;
+	border-right:3px solid #999999;
+}
+.Contact_us .Contact_us_in_the_middle .Contact_us_for_headlines .Contact_us_for_headlines_right{
+	font-size: 20px;
+	color:#999999;
+	padding-left:17px;
+}
+.Contact_us .Contact_us_in_the_middle .Contact_content{
+	width:100%;
+	height:auto;
+	margin-top:70px;
+}
+.Contact_us .Contact_us_in_the_middle .Contact_content .Online_Service{
+	height:100%;
+	text-align: center;
+	color:white;
+	margin-right:95px;
+}
+.Contact_us .Contact_us_in_the_middle .Contact_content .Online_Service_last{
+	margin-right:0;
+}
+.Contact_us .Contact_us_in_the_middle .Contact_content .Online_Service .Online_Service_background{
+	width:160px;
+	height:160px;
+	background: #E96228;
+	border-radius: 50%;
+	margin:0 auto;
+	overflow: hidden;
+}
+
+.Contact_us .Contact_us_in_the_middle .Contact_content .Online_Service .Online_Service_background img{
+	margin:45px auto;
+	display: inline-block;
+}
+.Contact_us .Contact_us_in_the_middle .Contact_content .Online_Service .Online_Service_background img:hover{
+	transform:scale(1.2);
+	-ms-transform: scale(1.2);/*IE*/
+	-moz-transform: scale(1.2); /* Firefox 4 */
+	-webkit-transform: scale(1.2); /* Safari 和 Chrome */
+	-o-transform: scale(1.2); /* Opera */
+	transition: .5s;
+	-ms-transition: .5s;/*IE*/
+	-moz-transition: .5s; /* Firefox 4 */
+	-webkit-transition: .5s; /* Safari 和 Chrome */
+	-o-transition: .5s; /* Opera */
+}
+.change_big{
+	transform:scale(1.2);
+	-ms-transform: scale(1.2);/*IE*/
+	-moz-transform: scale(1.2); /* Firefox 4 */
+	-webkit-transform: scale(1.2); /* Safari 和 Chrome */
+	-o-transform: scale(1.2); /* Opera */
+	transition: .5s;
+	-ms-transition: .5s;/*IE*/
+	-moz-transition: .5s; /* Firefox 4 */
+	-webkit-transition: .5s; /* Safari 和 Chrome */
+	-o-transition: .5s; /* Opera */
+}
+.Contact_us .Contact_us_in_the_middle .Contact_content .Online_Service .Online_Service_txt_top{
+	font-size: 23px;
+	margin:40px 0 10px;
+}
+.Contact_us .Contact_us_in_the_middle .Contact_content .Online_Service .Online_Service_txt_bottom{
+	font-size: 13px;
+}
+/*新手指导*/
+.Novice_guidance{
+	width:100%;
+	height:515px;
+	background: #F0F0F0;
+}
+.Novice_guidance .Novice_guidance_middle{
+	width:62.5%;
+	height:auto;
+	margin:0 auto;
+}
+.Novice_guidance .Novice_guidance_middle .Novice_guidance_headlines{
+	text-align: center;
+	padding-top:103px;
+}
+.Novice_guidance .Novice_guidance_middle .Novice_guidance_headlines .Novice_guidance_headlines_left{
+	font-size: 33px;
+	color:#333333;
+	padding-right:20px;
+	border-right:3px solid #999999;
+}
+.Novice_guidance .Novice_guidance_middle .Novice_guidance_headlines .Novice_guidance_headlines_right{
+	font-size: 20px;
+	color:#999999;
+	padding-left:17px;
+}
+.Novice_guidance .Novice_guidance_middle .Novice_guidance_content{
+	width:100%;
+	height:235px;
+	/*background: navajowhite;*/
+	margin-top:56px;
+}
+.Novice_guidance .Novice_guidance_middle .Novice_guidance_content > div{
+	width:270px;
+	margin-right:35px;
+}
+.Novice_guidance .Novice_guidance_middle .Novice_guidance_content .Buying_and_selling_last{
+	margin-right:0;
+}
+.Novice_guidance .Novice_guidance_middle .Novice_guidance_content .Registration_Guide{
+	width:270px;
+	height:180px;
+	background: url(../img/index_Registration_Guide.jpg) no-repeat ;
+	background-size:100% 100%;
+	text-align: center;
+	line-height: 180px;
+	color:white;
+	font-size: 28px;
+}
+.Novice_guidance .Novice_guidance_middle .Novice_guidance_content .Registration_Guide a{
+	color:white;
+	text-decoration: none;
+}
+.Novice_guidance .Novice_guidance_middle .Novice_guidance_content > div .img_shadow{
+	margin-top:-120px;
+}
+.Novice_guidance .Novice_guidance_middle .Novice_guidance_content .Prepaid_cash_withdrawal{
+	width:270px;
+	height:180px;
+	background: url(../img/index_Registration_Guide.jpg) no-repeat ;
+	background-size:100% 100%;
+	text-align: center;
+	line-height: 180px;
+	color:white;
+	font-size: 28px;
+}
+.Novice_guidance .Novice_guidance_middle .Novice_guidance_content .Prepaid_cash_withdrawal a{
+	color:white;
+	text-decoration: none;
+}
+.Novice_guidance .Novice_guidance_middle .Novice_guidance_content .Coin_money{
+	width:270px;
+	height:180px;
+	background: url(../img/index_Registration_Guide.jpg) no-repeat ;
+	background-size:100% 100%;
+	text-align: center;
+	line-height: 180px;
+	color:white;
+	font-size: 28px;
+}
+.Novice_guidance .Novice_guidance_middle .Novice_guidance_content .Coin_money a{
+	color:white;
+	text-decoration: none;
+}
+.Novice_guidance .Novice_guidance_middle .Novice_guidance_content .Buying_and_selling{
+	width:270px;
+	height:180px;
+	background: url(../img/index_Registration_Guide.jpg) no-repeat ;
+	background-size:100% 100%;
+	text-align: center;
+	line-height: 180px;
+	color:white;
+	font-size: 28px;
+}
+.Novice_guidance .Novice_guidance_middle .Novice_guidance_content .Buying_and_selling a{
+	color:white;
+	text-decoration: none;
+}
+/*鼠标悬停内容提起*/
+.Hover_over{
+	box-shadow: 0 3px 2px 2px #E9E9E9;
+	transform: translateY(-5px);
+	-ms-transform: translateY(-5px);/*IE*/
+	-moz-transform: translateY(-5px); /* Firefox 4 */
+	-webkit-transform: translateY(-5px); /* Safari 和 Chrome */
+	-o-transform: translateY(-5px); /* Opera */
+	transition: .4s;
+	-ms-transition: .4s;/*IE*/
+	-moz-transition: .4s; /* Firefox 4 */
+	-webkit-transition: .4s; /* Safari 和 Chrome */
+	-o-transition: .4s; /* Opera */
+}
+/*温馨提示*/
+.Reminder{
+	width:100%;
+	height:180px;
+	background:#FFFFFF ;
+	overflow: hidden;
+}
+.Reminder .Reminder_middle{
+	width:62.5%;
+	height:100%;
+	margin:0 auto;
+}
+.Reminder .Reminder_middle .Reminder_middle_left{
+	width:auto;
+	height:auto;
+	padding:50px 10px 0 0;
+	font-size:16px;
+	color:#E96228;
+	line-height: 30px;
+}
+.Reminder .Reminder_middle .Reminder_middle_right{
+	width:1100px;
+	height:auto;
+	color: #333333;
+	padding-top:50px;
+	font-size:16px;
+	line-height: 30px;
+}
+
+

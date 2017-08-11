@@ -1,0 +1,155 @@
+.header{
+	width:100%;
+	height:110px;
+	border-bottom:1px solid #EDECEC;
+}
+.header .header_middle{
+	width:62.5%;
+	height:100%;
+	margin:0 auto;
+}
+.header .header_middle img , .header .header_middle a{
+	display: inline-block;
+}
+.header .header_middle img{
+	padding: 37px 0 15px 38px;
+}
+.header .header_middle a{
+	font-size: 18px;
+	color:#E96328;
+	text-decoration: none;
+	padding: 54px 23px 0 39px;
+}
+/*内容*/
+.Login_content{
+	width:100%;
+	height:auto;
+}
+.Login_content .Login_content_middle{
+	width:62.5%;
+	height:550px;
+	margin:0 auto;
+	border:1px solid #EBEBEB;
+	margin-top:20px;
+}
+.Login_content .Login_content_middle .Login_content_middle_userload{
+	width:600px;
+	height:auto;
+	text-align: center;
+	margin-top:100px;
+	border-right:1px solid #DFDFDF;
+}
+.Login_content .Login_content_middle .Login_content_middle_userload .userload_title{
+	font-size: 20px;
+	color:#333333;
+	padding-top:10px;
+	
+}
+.Login_content .Login_content_middle .Login_content_middle_userload .userload_tel{
+	padding:44px 120px 0;
+	text-align: center;
+}
+.Login_content .Login_content_middle .Login_content_middle_userload .userload_tel .userload_tel_input{
+	width:358px;
+	height:48px;
+	border:1px solid #DFDFDF;
+	outline: none;
+	border-radius: 0;
+	text-indent: 32px;
+}
+.Login_content .Login_content_middle .Login_content_middle_userload .userload_tel .userload_tel_img{
+	top:50px;
+	left:130px;
+}
+.Login_content .Login_content_middle .Login_content_middle_userload .userload_password{
+	padding:28px 120px 0;
+	text-align: center;
+}
+.Login_content .Login_content_middle .Login_content_middle_userload .userload_password .userload_psd_input{
+	width:358px;
+	height:48px;
+	border:1px solid #DFDFDF;
+	outline: none;
+	border-radius: 0;
+	text-indent: 35px;
+}
+.Login_content .Login_content_middle .Login_content_middle_userload .userload_password .userload_psd_img{
+	top:36px;
+	left:130px;
+}
+.Login_content .Login_content_middle .Login_content_middle_userload .userload_loading{
+	margin-top:29px;
+}
+.Login_content .Login_content_middle .Login_content_middle_userload .userload_loading .userload_loading_btn{
+	width:360px;
+	height:50px;
+	background: #FDAD29;
+	color:#FFFFFF;
+	font-size: 18px;
+}
+.Login_content .Login_content_middle .Login_content_middle_userload .userload_supplement{
+	font-size: 15px;
+	text-align: left;
+	padding-bottom:35px
+}
+.Login_content .Login_content_middle .Login_content_middle_userload .userload_supplement .userload_forgetpsd{
+	color:#E96328;
+	margin-left:120px;
+}
+.Login_content .Login_content_middle .Login_content_middle_userload .userload_supplement .userload_register{
+	color:#999999;
+	margin-right:120px;
+}
+.Login_content .Login_content_middle .Login_content_middle_userload .userload_supplement .userload_register a{
+	color:#999999;
+	text-decoration: underline;
+}
+.Login_content .Login_content_middle .Login_content_middle_userload .userload_supplement .userload_register a:hover{
+	color:#E96328;
+}
+/*太一护照*/
+.Login_content .Login_content_middle .Login_content_middle_passport{
+	width:498px;
+	height:auto;
+	text-align: center;
+	margin-top:100px;
+}
+.Login_content .Login_content_middle .Login_content_middle_passport .login_use{
+	font-size: 22px;
+	color:#E96328;
+	padding-top:90px;
+	
+}
+.Login_content .Login_content_middle .Login_content_middle_passport .login_Advantage{
+	font-size: 14px;
+	color:#E96328;
+	margin-top:28px;
+}
+.Login_content .Login_content_middle .Login_content_middle_passport .login_quicklyloading{
+	width:300px;
+	height:50px;
+	background:#E96328 ;
+	line-height: 50px;
+	font-size: 19px;
+	color:#FFFFFF;
+	margin-top:40px;
+	margin-left:120px;
+}
+.Login_content .Login_content_middle .Login_content_middle_passport .login_quicklyloading:hover{
+	background: rgba(233,99,40,.95);
+}
+.land_record{
+	width:100%;
+	height:auto;
+	text-align: center;
+	font-size: 15px;
+	color: #999999;
+	padding-top:30px;
+}
+
+
+
+
+
+
+

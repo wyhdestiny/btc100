@@ -1,0 +1,661 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="renderer" content="webkit">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    	<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>BTC100 | 专业数字资产交易平台</title>
+		<link rel="shortcut icon" href="../img/btc_logo100.jpg" />
+		<link rel="stylesheet" type="text/css" href="../css/Rester.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/Normalize.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/TradingCenter.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/Nav.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/Footer.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/bootstrap-3.3.7-dist/css/bootstrap.css"/>
+		<script src="../js/jquery-2.1.4.min.js"></script>
+		<script src="../js/TradingCenter.js"></script>
+		<script src="../css/bootstrap-3.3.7-dist/js/bootstrap.js"></script>
+		<script src="../js/Nav.js"></script>
+		<script src="../js/Footer.js"></script>
+	</head>
+	<body style="min-width: 1900px;">
+		<div class="Navigation_bar_Child_page" >
+			<div class="Navigation_bar_centered">
+				<div class="nav_logo">
+					<a href="javescript:;">
+						<img src="../img/btc_logo.png"/>
+					</a>
+				</div>
+				<div class="Navigation_bar_contents">
+					<li class="Menu_content  cur">首页</li>
+					<li class="Menu_content first_Underline select_text cur"  style="color:#eb6519">交易中心</li>
+					<li class="Menu_content cur">财务中心</li>
+					<li class="Menu_content cur">安全中心</li>
+					<li class="Menu_content cur">帮助中心</li>
+					<li class="Menu_content cur">公告</li>
+					<li class="Menu_content cur">登录</li>
+					<li class="Menu_content last_Menu_content cur">注册</li>
+				</div>
+			</div>
+		</div>
+		<div class="TradingCenter_banner">
+			<img src="../img/trading_center_banner.png"/>
+		</div>
+		<div class="TradingCenter_announcement">
+			<div class="TradingCenter_announcement_middle cur">
+				<img src="../img/trading_center_laba.png"/>
+				<p>数字资产是创新的投资产品，价格波动较大，具有较高的投资风险，请您投资前多数字资产充分认知</p>
+			</div>
+		</div>
+		<!--币种列表-->
+		<div class="Currency_list_header">
+			<div class="Currency_list_header_middle">
+				<span class="Digital_currency Digital_underline cur">数字货币交易区</span>
+				<span class="Digital_asset cur">数字资产交易区</span>
+				<span class="Observation_area cur">观察区</span>
+			</div>
+		</div>
+		<div class="Currency_list_content">
+			<div class="Currency_list_content_middle">
+				<div class="Currency_list_content_title fl">
+					<div class="currency_title">货币名称</div>
+					<div class="Latest_transaction_price cur" mode="0">
+						最新成交价(CNY)
+						<span class="Latest_transaction_price_imga rel" style="top: -5px;">
+							<img src="../img/trading_center_grey_top.png" class="Latest_transaction_price_top cur " />
+						</span>
+						<span class="Latest_transaction_price_imgb rel" style="top: 4px;left:-14px">
+							<img src="../img/trading_center_grey_bottom.png" class="Latest_transaction_price_bottom cur "  />
+						</span>
+					</div>
+					<div class="volume cur" mode="0">
+						24H成交量
+						<span class="volume_imga rel" style="top: -5px;">
+							<img src="../img/trading_center_grey_top.png" class="volume_top cur"/>
+						</span>
+						<span class="volume_imgb rel"   style="top: 4px;left:-14px">
+							<img src="../img/trading_center_grey_bottom.png" class="volume_bottom cur"/>
+						</span>
+					</div>
+					<div class="Turnover cur" mode="0">
+						24H成交额(CNY)
+						<span class="Turnover_imga rel" style="top: -5px;">
+							<img src="../img/trading_center_grey_top.png" class="Turnover_top cur"/>
+						</span>
+						<span class="Turnover_imgb rel" style="top: 4px;left:-14px">
+							<img src="../img/trading_center_grey_bottom.png" class="Turnover_bottom cur"  />
+						</span>
+					</div>
+					<div class="Day_highs_and_lows cur" mode="0">
+						日涨跌
+						<span class="Day_highs_and_lows_imga rel"  style="top: -5px;">
+							<img src="../img/trading_center_grey_top.png" class="Day_highs_and_lows_top cur" />
+						</span>
+						<span class="Day_highs_and_lows_imgb rel" style="top: 4px;left:-14px">
+							<img src="../img/trading_center_grey_bottom.png" class="Day_highs_and_lows_bottom cur"  />
+						</span>
+					</div>
+					<div class="Price_trend">价格趋势</div>
+				</div>
+				<!--table1-->
+				<table  class="table_content fl" id="table_content_one">
+					<tr class="tr_single">
+						<td class="logo">
+							<a href="javescript:;">
+								<img src="../img/trading_center_Bitcoin.png" alt="" />
+								比特币BTC    
+							</a>
+						</td>
+						<td class="The_latest_price">4523.5</td>
+						<td class="volume_of_business">73425</td>
+						<td class="trading_volume">3573</td>
+						<td class="Day_highs_and_lows">
+							<span class="Day_number day_lows">-3.57%</span>
+						</td>
+						<td class="price_trend">
+							<img src="../img/k-line.png"/>
+						</td>
+						<td class="Go_Trade cur">
+							去交易
+						</td>
+					</tr>
+					<tr class="tr_single">
+						<td class="logo">
+							<a href="javescript:;">
+								<img src="../img/trading_center_Wright_coin.png" alt="" />
+								莱特币LTC    
+							</a>
+						</td>
+						<td class="The_latest_price">564652</td>
+						<td class="volume_of_business">5267</td>
+						<td class="trading_volume">722</td>
+						<td class="Day_highs_and_lows">
+							<span class="Day_number day_lows">-4.67%</span>
+						</td>
+						<td class="price_trend">
+							<img src="../img/k-line.png"/>
+						</td>
+						<td class="Go_Trade cur">
+							去交易
+						</td>
+					</tr>
+					<tr class="tr_single">
+						<td class="logo">
+							<a href="javescript:;">
+								<img src="../img/trading_center_DOG.png" alt="" />
+								狗狗币DOG    
+							</a>
+						</td>
+						<td class="The_latest_price">443.5</td>
+						<td class="volume_of_business">9425</td>
+						<td class="trading_volume">3657</td>
+						<td class="Day_highs_and_lows">
+							<span class="Day_number day_lows">-4.87%</span>
+						</td>
+						<td class="price_trend">
+							<img src="../img/k-line.png"/>
+						</td>
+						<td class="Go_Trade cur">
+							去交易
+						</td>
+					</tr>
+					<tr class="tr_single">
+						<td class="logo">
+							<a href="javescript:;">
+								<img src="../img/trading_center_Poovey_coinPIVX.png" alt="" />
+								普维币PIVX    
+							</a>
+						</td>
+						<td class="The_latest_price">57274</td>
+						<td class="volume_of_business">4445</td>
+						<td class="trading_volume">5253</td>
+						<td class="Day_highs_and_lows">
+							<span class="Day_number day_highs">+5.57%</span>
+						</td>
+						<td class="price_trend">
+							<img src="../img/k-line.png"/>
+						</td>
+						<td class="Go_Trade cur">
+							去交易
+						</td>
+					</tr>
+					<tr class="tr_single">
+						<td class="logo">
+							<a href="javescript:;">
+								<img src="../img/trading_center_british.png" alt="" />
+								英联币UIS    
+							</a>
+						</td>
+						<td class="The_latest_price">87699</td>
+						<td class="volume_of_business">53555</td>
+						<td class="trading_volume">5783</td>
+						<td class="Day_highs_and_lows">
+							<span class="Day_number day_lows">-8.87%</span>
+						</td>
+						<td class="price_trend">
+							<img src="../img/k-line.png"/>
+						</td>
+						<td class="Go_Trade cur">
+							去交易
+						</td>
+					</tr>
+					<tr class="tr_single">
+						<td class="logo">
+							<a href="javescript:;">
+								<img src="../img/trading_center_Colorful_coins.png" alt="" />
+								多彩币XMY    
+							</a>
+						</td>
+						<td class="The_latest_price">8638</td>
+						<td class="volume_of_business">33325</td>
+						<td class="trading_volume">8527</td>
+						<td class="Day_highs_and_lows">
+							<span class="Day_number day_highs">+5.96%</span>
+						</td>
+						<td class="price_trend">
+							<img src="../img/k-line.png"/>
+						</td>
+						<td class="Go_Trade cur">
+							去交易
+						</td>
+					</tr>
+					<tr class="tr_single">
+						<td class="logo">
+							<a href="javescript:;">
+								<img src="../img/tranding_center_lightning_coinGRS.png" alt="" />
+								闪电币GRS    
+							</a>
+						</td>
+						<td class="The_latest_price">53833</td>
+						<td class="volume_of_business">45877</td>
+						<td class="trading_volume">35552</td>
+						<td class="Day_highs_and_lows">
+							<span class="Day_number day_highs">+5.97%</span>
+						</td>
+						<td class="price_trend">
+							<img src="../img/k-line.png"/>
+						</td>
+						<td class="Go_Trade cur">
+							去交易
+						</td>
+					</tr>
+					<tr class="tr_single">
+						<td class="logo">
+							<a href="javescript:;">
+								<img src="../img/traning_center_primectionXPM.png" alt="" />
+								质数币XPM    
+							</a>
+						</td>
+						<td class="The_latest_price">85777</td>
+						<td class="volume_of_business">6898</td>
+						<td class="trading_volume">5744</td>
+						<td class="Day_highs_and_lows">
+							<span class="Day_number day_highs">+6.52%</span>
+						</td>
+						<td class="price_trend">
+							<img src="../img/k-line.png"/>
+						</td>
+						<td class="Go_Trade cur">
+							去交易
+						</td>
+					</tr>
+					<tr class="tr_single">
+						<td class="logo">
+							<a href="javescript:;">
+								<img src="../img/trading_center_black_coinBLK.png" alt="" />
+								黑币BLK    
+							</a>
+						</td>
+						<td class="The_latest_price">547874</td>
+						<td class="volume_of_business">58665</td>
+						<td class="trading_volume">5828</td>
+						<td class="Day_highs_and_lows">
+							<span class="Day_number day_lows">-5.89%</span>
+						</td>
+						<td class="price_trend">
+							<img src="../img/k-line.png"/>
+						</td>
+						<td class="Go_Trade cur">
+							去交易
+						</td>
+					</tr>
+					<tr class="tr_single">
+						<td class="logo">
+							<a href="javescript:;">
+								<img src="../img/trading_center_special_coinDGB.png" alt="" />
+								极特币DGB    
+							</a>
+						</td>
+						<td class="The_latest_price">52666</td>
+						<td class="volume_of_business">87698</td>
+						<td class="trading_volume">52565</td>
+						<td class="Day_highs_and_lows">
+							<span class="Day_number day_highs">+8.99%</span>
+						</td>
+						<td class="price_trend">
+							<img src="../img/k-line.png"/>
+						</td>
+						<td class="Go_Trade cur">
+							去交易
+						</td>
+					</tr>
+					<tr class="tr_single">
+						<td class="logo">
+							<a href="javescript:;">
+								<img src="../img/trading_center_bit_stock.png" alt="" />
+								比特股BTS    
+							</a>
+						</td>
+						<td class="The_latest_price">589998</td>
+						<td class="volume_of_business">78885</td>
+						<td class="trading_volume">58655</td>
+						<td class="Day_highs_and_lows">
+							<span class="Day_number day_highs">+2.35%</span>
+						</td>
+						<td class="price_trend">
+							<img src="../img/k-line.png"/>
+						</td>
+						<td class="Go_Trade cur">
+							去交易
+						</td>
+					</tr>
+				</table>
+				
+				<!--table2-->
+				<table  class="table_content fl " id="table_content_two" style="display: none;">
+					<tr class="tr_single">
+						<td class="logo">
+							<a href="javescript:;">
+								<img src="../img/trading_center_CECCEC.png" alt="" />
+								CECCEC    
+							</a>
+						</td>
+						<td class="The_latest_price">4543.5</td>
+						<td class="volume_of_business">74425</td>
+						<td class="trading_volume">3457</td>
+						<td class="Day_highs_and_lows">
+							<span class="Day_number day_lows">-5.37%</span>
+						</td>
+						<td class="price_trend">
+							<img src="../img/k-line.png"/>
+						</td>
+						<td class="Go_Trade cur">
+							去交易
+						</td>
+					</tr>
+					<tr class="tr_single">
+						<td class="logo">
+							<a href="javescript:;">
+								<img src="../img/trading_center_starMXI.png" alt="" />
+								明星币MXI    
+							</a>
+						</td>
+						<td class="The_latest_price">85377</td>
+						<td class="volume_of_business">85577</td>
+						<td class="trading_volume">86532</td>
+						<td class="Day_highs_and_lows">
+							<span class="Day_number day_lows">-8.58%</span>
+						</td>
+						<td class="price_trend">
+							<img src="../img/k-line.png"/>
+						</td>
+						<td class="Go_Trade cur">
+							去交易
+						</td>
+					</tr>
+					<tr class="tr_single">
+						<td class="logo">
+							<a href="javescript:;">
+								<img src="../img/trading_center_ddatongKP.png" alt="" />
+								大通宝KP    
+							</a>
+						</td>
+						<td class="The_latest_price">85677</td>
+						<td class="volume_of_business">58332</td>
+						<td class="trading_volume">85553</td>
+						<td class="Day_highs_and_lows">
+							<span class="Day_number day_highs">+6.32%</span>
+						</td>
+						<td class="price_trend">
+							<img src="../img/k-line.png"/>
+						</td>
+						<td class="Go_Trade cur">
+							去交易
+						</td>
+					</tr>
+					<tr class="tr_single">
+						<td class="logo">
+							<a href="javescript:;">
+								<img src="../img/trading_center_hundred_yearsBNTB.png" alt="" />
+								百年通宝BNTB    
+							</a>
+						</td>
+						<td class="The_latest_price">8967</td>
+						<td class="volume_of_business">5655</td>
+						<td class="trading_volume">8544</td>
+						<td class="Day_highs_and_lows">
+							<span class="day_lows">-6.88%</span>
+						</td>
+						<td class="price_trend">
+							<img src="../img/k-line.png"/>
+						</td>
+						<td class="Go_Trade cur">
+							去交易
+						</td>
+					</tr>
+					<tr class="tr_single">
+						<td class="logo">
+							<a href="javescript:;">
+								<img src="../img/trading_center_hapy_score.png" alt="" />
+								乐享积分HSP    
+							</a>
+						</td>
+						<td class="The_latest_price">8566</td>
+						<td class="volume_of_business">5477</td>
+						<td class="trading_volume">63252</td>
+						<td class="Day_highs_and_lows">
+							<span class="day_highs">-5.44%</span>
+						</td>
+						<td class="price_trend">
+							<img src="../img/k-line.png"/>
+						</td>
+						<td class="Go_Trade cur">
+							去交易
+						</td>
+					</tr>
+					<tr class="tr_single">
+						<td class="logo">
+							<a href="javescript:;">
+								<img src="../img/trading_center_richpoints.png" alt="" />
+								众富积分ZFJF    
+							</a>
+						</td>
+						<td class="The_latest_price">98788</td>
+						<td class="volume_of_business">524446</td>
+						<td class="trading_volume">52345</td>
+						<td class="Day_highs_and_lows">
+							<span class="day_lows">-8.57%</span>
+						</td>
+						<td class="price_trend">
+							<img src="../img/k-line.png"/>
+						</td>
+						<td class="Go_Trade cur">
+							去交易
+						</td>
+					</tr>
+					<tr class="tr_single">
+						<td class="logo">
+							<a href="javescript:;">
+								<img src="../img/trading_center_integralJDC.png" alt="" />
+								金渡积分JDC    
+							</a>
+						</td>
+						<td class="The_latest_price">56488</td>
+						<td class="volume_of_business">97538</td>
+						<td class="trading_volume">8287</td>
+						<td class="Day_highs_and_lows">
+							<span class="day_highs">-6.85%</span>
+						</td>
+						<td class="price_trend">
+							<img src="../img/k-line.png"/>
+						</td>
+						<td class="Go_Trade cur">
+							去交易
+						</td>
+					</tr>
+					<tr class="tr_single">
+						<td class="logo">
+							<a href="javescript:;">
+								<img src="../img/trading_center_tongbaoJYB.png" alt="" />
+								金元通宝JYB    
+							</a>
+						</td>
+						<td class="The_latest_price">8654</td>
+						<td class="volume_of_business">53225</td>
+						<td class="trading_volume">78965</td>
+						<td class="Day_highs_and_lows">
+							<span class="day_lows">-9.32%</span>
+						</td>
+						<td class="price_trend">
+							<img src="../img/k-line.png"/>
+						</td>
+						<td class="Go_Trade cur">
+							去交易
+						</td>
+					</tr>
+				</table>
+				<!--table3-->
+				<table  class="table_content fl " id="table_content_three" style="display: none;">
+					<tr class="tr_single">
+						<td class="logo">
+							<a href="javescript:;">
+								<img src="../img/trading_center_kentKTC.png" alt="" />
+								肯特币KTC    
+							</a>
+						</td>
+						<td class="The_latest_price">6744.5</td>
+						<td class="volume_of_business">47775</td>
+						<td class="trading_volume">84665</td>
+						<td class="Day_highs_and_lows">
+							<span class="day_highs">-5.98%</span>
+						</td>
+						<td class="price_trend">
+							<img src="../img/k-line.png"/>
+						</td>
+						<td class="Go_Trade cur">
+							去交易
+						</td>
+					</tr>
+					<tr class="tr_single">
+						<td class="logo">
+							<a href="javescript:;">
+								<img src="../img/trading_center_championsAFC.png" alt="" />
+								亚冠币AFC    
+							</a>
+						</td>
+						<td class="The_latest_price">3567</td>
+						<td class="volume_of_business">3587</td>
+						<td class="trading_volume">97644</td>
+						<td class="Day_highs_and_lows">
+							<span class="day_highs">-8.45%</span>
+						</td>
+						<td class="price_trend">
+							<img src="../img/k-line.png"/>
+						</td>
+						<td class="Go_Trade cur">
+							去交易
+						</td>
+					</tr>
+					<tr class="tr_single">
+						<td class="logo">
+							<a href="javescript:;">
+								<img src="../img/trading_center_feicuibaoFCB.png" alt="" />
+								翡翠宝FCB    
+							</a>
+						</td>
+						<td class="The_latest_price">3464</td>
+						<td class="volume_of_business">5432</td>
+						<td class="trading_volume">5344</td>
+						<td class="Day_highs_and_lows">
+							<span class="day_highs">-8.37%</span>
+						</td>
+						<td class="price_trend">
+							<img src="../img/k-line.png"/>
+						</td>
+						<td class="Go_Trade cur">
+							去交易
+						</td>
+					</tr>
+				</table>
+			</div>
+		</div>
+		<div class="Professional_safety_guarantee ">
+			<div class="Professional_safety_guarantee_middle ">
+				<div class="Professional_safety_guarantee_headlines">
+					<span class="Professional_safety_guarantee_headlines_left">专业的安全保障</span>
+					<span  class="Professional_safety_guarantee_headlines_right">Novice Guidance</span>
+				</div>
+				<div class="Content_of_security_protection">
+					<div class="Capital_security fl">
+						<img src="../img/trading_center_safe.png" alt="" />
+						<p class="Capital_security_title">资金安全</p>
+						<p class="Capital_security_cont">钱包多层加密，冷钱包离线存储，确保您的资产安全</p>
+					</div>
+					<div class="System_reliability fl">
+						<img src="../img/trading_cneten_system.png" alt="" />
+						<p class="System_reliability_title">系统可靠</p>
+						<p class="System_reliability_cont">银行级用户数据加密、动态身份验证，多级风险识别控制，保障交易安全</p>
+					</div>
+					<div class="Legal_compliance fl">
+						<img src="../img/trading_center_shortcut_operation.png" alt="" />
+						<p class="Legal_compliance_title">合法合规</p>
+						<p class="Legal_compliance_cont">专业的客服团队，重要的许可证，让您放心交易</p>
+					</div>
+					<div class="Quick_convenient fl">
+						<img src="../img/trading_center_legal_compliance.png" alt="" />
+						<p class="Quick_convenient_title">快捷方便</p>
+						<p class="Quick_convenient_cont">充值即时、提现迅速，高性能交易引擎，保证一切快捷方便</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<!--footer-->
+		<div class="footer fl" style="margin-top:105px;">
+			<div class="footer_middle">
+				<div class="footer_nav fl">
+					<div class="footer_nav_services fl">
+						<p class="services_first">SERVICES</p>
+						<a href="javescript:;">钱包下载</a>
+						<a href="javescript:;">服务协议</a>
+						<a href="javescript:;">常见问题</a>
+						<a href="javescript:;">充值提现</a>
+					</div>
+					<div class="footer_nav_about fl">
+						<p class="about_first">ABOUT</p>
+						<a href="javescript:;">关于我们</a>
+						<a href="javescript:;">商务合作</a>
+						<a href="javescript:;">媒体报道</a>
+						<a href="javescript:;">投诉建议</a>
+					</div>
+					<div class="footer_nav_information fl">
+						<p class="information_first">INFORMATION</p>
+						<a href="javescript:;">招聘英才</a>
+						<a href="javescript:;">费率说明</a>
+						<a href="javescript:;">上币申请</a>
+						<a href="javescript:;">法律声明</a>
+					</div>
+					<div class="footer_nav_contact fl">
+						<p class="contact_first">CONTACT</p>
+						<a href="javescript:;">服务邮箱：btc100@btc100.org</a>
+						<a href="javescript:;">上币申请：shangbi@btc100.com</a>
+						<a href="javescript:;">商务合作：marketing@btc100.com</a>
+						<a href="javescript:;">投诉建议：400-88-94100</a>
+					</div>
+					<div class="footer_nav_twocode fl">
+						<p class="footer_nav_twocodeimg">
+							<img src="../img/index_footer_two_code.png" alt="" />
+						</p>
+						<p class="footer_nav_twocodetext">扫描关注公众号</p>
+					</div>
+				</div>
+				<div class="Official_group fl cur" style="z-index: 999999;">
+					<p class="Official_group_txt fl cur">BTC100官方交流群</p>
+					<p class="Official_group_img fl cur">
+						<img src="../img/index_footer_top.png"/>
+					</p>
+					
+				</div>
+				<div class="Friendship_link fl">
+					<span>友情链接：</span>
+					<a href="javescript:;">BTC114、</a>
+					<a href="javescript:;">玩币族、</a>
+					<a href="javescript:;">SOSOBTC、</a>
+					<a href="javescript:;">比特币资讯网、</a>
+					<a href="javescript:;">彩云比特、</a>
+					<a href="javescript:;">币看、</a>
+					<a href="javescript:;">比特币中文网、</a>
+					<a href="javescript:;">元宝网、</a>
+					<a href="javescript:;">红筹区块链</a>
+				</div>
+				<div class="Keep_on_record fl">
+					2013-2017 北京比特一百科技有限公司 | 京ICP备16021719号 | 买卖有风险，入市须谨慎
+				</div>
+				<div class="Verification fl">
+					<a href="javescript:;"><img src="../img/index_footer_alarm_service.png" alt="" /></a>
+					<a href="javescript:;"><img src="../img/index_footer_Authentication.png" alt="" /></a>
+					<a href="javescript:;"><img src="../img/index_footer_safety_monitoring.png" alt="" /></a>
+					<a href="javescript:;"><img src="../img/index_footer_report.png" alt="" /></a>
+				</div>
+			</div>
+			<ul class="Official_group_menu fl">
+				<li>BTC100官方交流一群&nbsp;&nbsp;&nbsp;&nbsp;173701889</li>
+				<li>BTC100官方交流二群&nbsp;&nbsp;&nbsp;&nbsp;289873164</li>
+				<li>BTC100官方交流三群&nbsp;&nbsp;&nbsp;&nbsp;283929592</li>
+				<li>BTC100官方交流四群&nbsp;&nbsp;&nbsp;&nbsp;276761346</li>
+				<li>BTC100官方交流五群&nbsp;&nbsp;&nbsp;&nbsp;144599027</li>
+			</ul>
+		</div>
+	</body>
+</html>
