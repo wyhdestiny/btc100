@@ -19,14 +19,13 @@
 	</head>
 	<style type="text/css">
 		.user_appear{
-			/*display: none;*/
+			display: none;
 			width:316px;
 			height:278px;
 			background: url(../img/login_later-bg.png) no-repeat;
 			background-size: 100% 100%;
 			top:99px;
 			left:59%;
-			color:#C8C8C8;
 		}
 		.name_appear{
 			display: block;
@@ -34,47 +33,68 @@
 			
 		}
 		.user_appear .appear_user{
-			padding-top:40px;
-			text-indent: 51px;
-			width:100%;
-			font-size: 16px;
+			padding-top:28px;
+			text-indent: 115px;
+			font-size: 14px;
+			color:#FFFFFF;
 		}
 		.user_appear .appear_uid{
-			text-indent: 63px;
+			text-indent: 125px;
 			width:100%;
-			font-size: 16px;
+			font-size: 14px;
+			color:#FFFFFF;
 		}
-		/*.user_appear .appear_total{
-			font-size: 16px;
-			text-indent: 52px;
-			color:#C8C8C8;
+		.user_appear .appear_total{
+			font-size: 15px;
+			text-indent:40px;
+			margin-top:25px !important;
+			color:#333333;
+			height:30px;
+			width:100%;
+			line-height: 30px;
 		}
 		.user_appear .appear_total span{
 			color:#E96328;
-			font-size: 17px;
+			font-size: 16px;
+			float: right;
+			margin-right:25px;
 		}
-		.appear_assets{
-			text-indent:34px;
+		
+		.user_appear .assets_available{
+			height:30px;
 			width:100%;
-			font-size: 14px;
+			font-size: 15px;
+			text-indent:40px;
+			color:#333333;
+			padding-right:25px;
+			line-height:30px;
 		}
-		.assets_frozen{
-			text-indent: 34px;
+		.user_appear .assets_available .assets_available_money{
+			color:#2FB032;
+		}
+		.user_appear .assets_frozen{
+			height:30px;
 			width:100%;
-			font-size: 14px;
-			padding-bottom:10px;
+			font-size: 15px;
+			text-indent:40px;
+			color:#333333;
+			padding-right:25px;
+			line-height:30px;
+		}
+		.user_appear .assets_frozen .assets_frozen_money{
+			color:#999999;
 		}
 		.user_appear  .appear_btn{
-			margin:0 4%
-			width:92%;
+			width:274px;
 			height:50px;
 			border-top:1px dashed #C8C8C8;
-			padding-top:15px;
-			margin-top:10px;
+			padding-top:8px;
+			display: inline-block;
+			margin-left:25px;
 		}
 		.user_appear  .appear_btn .appear_recharge{
-			width:94px;
-			height:38px;
+			width:60px;
+			height:30px;
 			border:1px solid #E96328;
 			border-radius: 5px;
 			color: #E96328;
@@ -89,12 +109,12 @@
 			transition: .3s;
 		}
 		.user_appear  .appear_btn .appear_withdrawals{
-			width:94px;
-			height:38px;
+			width:60px;
+			height:30px;
 			border:1px solid #2FB032;
 			border-radius: 5px;
 			color:#2FB032;
-			margin-left:65px;
+			margin-left:80px;
 			background: none;
 			font-size:15px;
 			outline: none;
@@ -103,7 +123,7 @@
 			background:#2FB032 ;
 			color:white;
 			transition: .3s;
-		}*/
+		}
 		
 		
 		
@@ -133,42 +153,44 @@
 				<div class="user_appear abs"  >
 					<p class="appear_user">用户名：<span>13693013340</span></p>
 					<p class="appear_uid">U&nbsp;I&nbsp;D：<span>256354</span></p>
-					<!--<p class="appear_total">总资产：<span>10.00</span></p>-->
-					<!--<p class="appear_assets">
-						<span class="assets_available_span ">可用(CNY)：<span>10.0000000000000</span></span>
-					</p>-->
-					<!--<p class="assets_frozen">
-						<span class="assets_frozen_span ">冻结(CNY)：<span>22.0000000000000000</span></span>
-					</p>-->
-					<!--<p class="appear_btn">
+					<p class="appear_total" >总资产：<span>10.00000000000</span></p>
+					<p class="assets_available">
+						<span  class="assets_available_span fl">可用(CNY)：</span>
+						<span class="assets_available_money fr">10.007555000000</span>
+					</p>
+					<p class="assets_frozen" >
+						<span  class="assets_frozen_span fl">冻结(CNY)：</span>
+						<span class="assets_frozen_money fr">10.007555000000</span>
+					</p>
+					<p class="appear_btn">
 						<button class="appear_recharge">充值</button>
 						<button class="appear_withdrawals">提现</button>
-					</p>-->
+					</p>
 				</div>
 			</div>
 		</div>
 		<script type="text/javascript">
-//			$(".username").mousemove(function(){
-//				$(this).css("border-bottom","none")
-//				$(this).css("color","#E96228")
-//				$(".username img").attr('src','../img/login_later_bottom.png');
-//			    $(".user_appear").show();
-//			})
-//			$(".username").mouseout(function(){
-//				$(this).css("color","#999999")
-//				$(".username img").attr('src','../img/login_later_top.png');
-//				setTimeout(function () {
-//			        $(".user_appear").hide();
-//			    },5000);
-//			})
-//			$(".user_appear").mousemove(function(){
-//				$(".username img").attr('src','../img/login_later_bottom.png');
-//				$(".user_appear").show();
-//			})
-//			$(".user_appear").mouseout(function(){
-//				$(".username img").attr('src','../img/login_later_top.png');
-//				$(".user_appear").hide();
-//			})
+			$(".username").mousemove(function(){
+				$(this).css("border-bottom","none")
+				$(this).css("color","#E96228")
+				$(".username img").attr('src','../img/login_later_bottom.png');
+			    $(".user_appear").show();
+			})
+			$(".username").mouseout(function(){
+				$(this).css("color","#999999")
+				$(".username img").attr('src','../img/login_later_top.png');
+				setTimeout(function () {
+			        $(".user_appear").hide();
+			    },5000);
+			})
+			$(".user_appear").mousemove(function(){
+				$(".username img").attr('src','../img/login_later_bottom.png');
+				$(".user_appear").show();
+			})
+			$(".user_appear").mouseout(function(){
+				$(".username img").attr('src','../img/login_later_top.png');
+				$(".user_appear").hide();
+			})
 
 			
 		</script>
