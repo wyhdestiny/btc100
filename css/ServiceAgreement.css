@@ -1,0 +1,30 @@
+.Protocol_content{
+	width:100%;
+	height:auto;
+	background: #F8F8F8;
+	margin-top:110px;
+}
+.Protocol_content .Protocol_content_middle{
+	width:62.5%;
+	height:auto;
+	margin:0 auto;
+}
+.Protocol_content .Protocol_content_middle .protocolContent_title{
+	padding-top:80px;
+	padding-bottom:45px;
+	text-align: center;
+	font-size: 25px;
+}
+.Protocol_content .Protocol_content_middle .protocolContent_rulecont{
+	font-size: 16px;
+}
+.Protocol_content .Protocol_content_middle .protocolContent_rule{
+	font-size: 17px;
+	font-weight: bold;
+}
+.Protocol_content .Protocol_content_middle .distance_top{
+	padding-top:15px;
+}
+.Protocol_content .Protocol_content_middle .distance_bottom{
+	padding-bottom:65px;
+}

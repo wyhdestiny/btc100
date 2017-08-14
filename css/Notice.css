@@ -22,17 +22,21 @@
 /*内容部分 */
 .Financial_Center_content{
 	width:100%;
-	height:1105px;
+	height:900px;
+	height:auto;
 }
 .Financial_Center_content .Financial_Center_content_middle{
 	width:62.5%;
-	height:1105px;
+	height:900px;
+	/*height:auto;*/
 	margin:0 auto;
 	background: #FFFFFF;
+	border:1px solid #EEEEEE;
 }
 .Financial_Center_content .Financial_Center_content_middle .Financial_Center_contentmiddle_menu{
 	width:178px;
-	height:1105px;
+	height:900px;
+	/*height:auto;*/
 	background: #F8F8F8;
 	height:100%;
 	border:1px solid #EEEEEE;

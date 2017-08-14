@@ -76,17 +76,11 @@
 	color: #333333;
 	position: fixed;
 	top:0;
-	/*left:0;*/
 	min-width: 1900px;
 }
 .Navigation_bar_Child_page .Navigation_bar_centered{
 	width:62.5%;
-	/*min-width:1000px;*/
 	margin:0 auto;
-	/*position: fixed;
-	top:0;
-	left: 20%;
-	background: #FFFFFF;*/
 }
 .Navigation_bar_Child_page .Navigation_bar_centered .nav_logo{
 	width:201px;
