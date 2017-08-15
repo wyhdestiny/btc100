@@ -1,0 +1,87 @@
+.discountBar{
+	width:100%;
+	height:auto;
+	margin-top:110px;
+	border-top:1px solid #E6E6E6;
+}
+.discountBar .discountBar_middle{
+	width:62.5%;
+	height:60px;
+	margin:0 auto;
+	line-height: 60px;
+}
+.discountBar .discountBar_middle .discountBar_currency{
+	display: inline-block;
+	font-size: 16px;
+}
+.discountBar .discountBar_middle .discountBar_currency .discountBar_currencyName{
+	padding:0 7px;
+}
+.discountBar .discountBar_middle .discountBar_currency .currencyList{
+	width:380px;
+	height:auto;
+	border: 1px solid #E6E6E6;
+	
+}
+
+.discountBar .discountBar_middle .latest_transactionPrice{
+	display: inline-block;
+	width:260px;
+	text-align: center;
+	font-size: 24px;
+	color:#E96328;
+	padding-right:20px;
+	font-weight: bold;
+}
+.discountBar .discountBar_middle .hightestPrice{
+	display: inline-block;
+	width:250px;
+	font-size:16px ;
+}
+.discountBar .discountBar_middle .minimunPrice{
+	display: inline-block;
+	width:250px;
+	font-size: 16px;
+}
+.discountBar .discountBar_middle .discountBar_volume{
+	display: inline-block;
+	width:250px;
+	font-size: 16px;
+}
+
+/*买卖内容*/
+.buyingSelling{
+	width:100%;
+	height:auto;
+	background: #F8F8F8;
+}
+.buyingSelling .buyingSelling_content{
+	width:62.5%;
+	height:auto;
+	margin:0 auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
