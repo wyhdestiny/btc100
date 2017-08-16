@@ -31,6 +31,7 @@
 	width:auto;
 	padding:0 0 15px;
 	float: left;
+	display: inline-block;
 	margin-right:40px;
 	text-align: center;
 	font-size: 18px;

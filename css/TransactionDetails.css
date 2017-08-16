@@ -15,18 +15,36 @@
 	font-size: 16px;
 }
 .discountBar .discountBar_middle .discountBar_currency .discountBar_currencyName{
-	padding:0 7px;
+	padding:0 5px;
+}
+.discountBar .discountBar_middle .discountBar_currency .arrow{
+	top:52px;
+	left:71px;
+	display: none;
 }
 .discountBar .discountBar_middle .discountBar_currency .currencyList{
-	width:380px;
+	top:56px;
+	left:0;
+	width:600px;
 	height:auto;
+	background: #FFFFFF;
 	border: 1px solid #E6E6E6;
-	
+	border-top:2px solid #E96328;
+	padding:15px 10px 0 10px;
+	display: none;
 }
-
+.currncy_type{
+	width:192px;
+	border-bottom:1px solid #F2F2F2;
+	cursor: pointer;
+	text-indent: 25px;
+}
+.discountBar .discountBar_middle .discountBar_currency .currencyList .currncy_type:hover{
+	color:#E96328;
+}
 .discountBar .discountBar_middle .latest_transactionPrice{
 	display: inline-block;
-	width:260px;
+	width:250px;
 	text-align: center;
 	font-size: 24px;
 	color:#E96328;
@@ -35,17 +53,17 @@
 }
 .discountBar .discountBar_middle .hightestPrice{
 	display: inline-block;
-	width:250px;
+	width:260px;
 	font-size:16px ;
 }
 .discountBar .discountBar_middle .minimunPrice{
 	display: inline-block;
-	width:250px;
+	width:260px;
 	font-size: 16px;
 }
 .discountBar .discountBar_middle .discountBar_volume{
 	display: inline-block;
-	width:250px;
+	width:260px;
 	font-size: 16px;
 }
 
@@ -60,15 +78,75 @@
 	height:auto;
 	margin:0 auto;
 }
+.buyingSelling .buyingSelling_content .jumpPage{
+	width:100%;
+	height:60px;
+}
+.buyingSelling .buyingSelling_content .jumpPage .jumpLeft{
+	line-height: 60px;
+	font-size: 16px;
+	color:#333333;
+}
+.buyingSelling .buyingSelling_content .jumpPage .jumpLeft a{
+	line-height: 60px;
+	font-size: 16px;
+	color:#E96328;
+	text-decoration: none;
+}
+.buyingSelling .buyingSelling_content .jumpPage .jumpRight{
+	padding-top:35px;
+	font-size: 12px;
+	color:#E96328;
+}
+/*内容*/
+.buyingSelling .buyingSelling_content .Transation_content{
+	width:100%;
+	height:auto;
+	border:1px solid #E8E8E8;
+}
+.buyingSelling .buyingSelling_content .Transation_content .Transation_content_menu{
+	width:178px;
+	/*background: gold;*/
+	height:100%;
+}
+.buyingSelling .buyingSelling_content .Transation_content .Transation_content_menu .Transation_content_li{
+	height:50px;
+	width:100%;
+	text-align: center;
+	padding:15px 0;
+	font-size: 17px;
+	/*background: #F8F8F8;*/
+	cursor: pointer;
+}
+/*选中的样式*/
+.buyingSelling .buyingSelling_content .Transation_content .Transation_content_menu .Selected_state{
+	background: #FFFFFF;
+	color:#E96328;
+	border-left:4px solid #E96328;
+	margin-left:1px
+}
+/*箭头定位*/
+.buyingSelling .buyingSelling_content .Transation_content .Transation_content_menu  li .choices_arrow_one{
+	top:0 !important;
+	left:30px !important;
+}
+.buyingSelling .buyingSelling_content .Transation_content .Transation_content_menu  li .choices_arrow_two{
+	top:0 !important;
+	left:35px !important;
+	display: none;
+}
+.buyingSelling .buyingSelling_content .Transation_content .Transation_content_menu  li .choices_arrow_three{
+	top:0 !important;
+	left:35px !important;
+	display: none;
+}
 
-
-
-
-
-
-
-
-
+/*右边*/
+.buyingSelling .buyingSelling_content .Transation_content  .Transation_content_content{
+	width:1020px;
+	height:auto;
+	background: #FFFFFF;
+}
 
 
 

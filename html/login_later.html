@@ -19,7 +19,7 @@
 	</head>
 	<style type="text/css">
 		.user_appear{
-			display: none;
+			/*display: none;*/
 			width:316px;
 			height:278px;
 			background: url(../img/login_later-bg.png) no-repeat;
@@ -34,12 +34,13 @@
 		}
 		.user_appear .appear_user{
 			padding-top:28px;
-			text-indent: 115px;
+			text-indent: 45px;
 			font-size: 14px;
 			color:#FFFFFF;
+			margin-bottom:-3px;
 		}
 		.user_appear .appear_uid{
-			text-indent: 125px;
+			text-indent: 17px;
 			width:100%;
 			font-size: 14px;
 			color:#FFFFFF;
@@ -146,11 +147,27 @@
 					<li class="Menu_content cur username">
 						13693013340
 						<img src="../img/login_later_top.png" class=""/>
-						
+						<div class="user_appear abs"  >
+							<p class="appear_user">用户名：<span>13693013340</span></p>
+							<p class="appear_uid">U&nbsp;I&nbsp;D：<span>256354</span></p>
+							<p class="appear_total" >总资产：<span>10.00000000000</span></p>
+							<p class="assets_available">
+								<span  class="assets_available_span fl">可用(CNY)：</span>
+								<span class="assets_available_money fr">10.007555000000</span>
+							</p>
+							<p class="assets_frozen" >
+								<span  class="assets_frozen_span fl">冻结(CNY)：</span>
+								<span class="assets_frozen_money fr">10.007555000000</span>
+							</p>
+							<p class="appear_btn">
+								<button class="appear_recharge">充值</button>
+								<button class="appear_withdrawals">提现</button>
+							</p>
+						</div>
 					</li>
 					<li class="Menu_content last_Menu_content cur">退出</li>
 				</div>
-				<div class="user_appear abs"  >
+				<!--<div class="user_appear abs"  >
 					<p class="appear_user">用户名：<span>13693013340</span></p>
 					<p class="appear_uid">U&nbsp;I&nbsp;D：<span>256354</span></p>
 					<p class="appear_total" >总资产：<span>10.00000000000</span></p>
@@ -166,31 +183,45 @@
 						<button class="appear_recharge">充值</button>
 						<button class="appear_withdrawals">提现</button>
 					</p>
-				</div>
+				</div>-->
 			</div>
 		</div>
 		<script type="text/javascript">
-			$(".username").mousemove(function(){
-				$(this).css("border-bottom","none")
-				$(this).css("color","#E96228")
-				$(".username img").attr('src','../img/login_later_bottom.png');
-			    $(".user_appear").show();
-			})
-			$(".username").mouseout(function(){
-				$(this).css("color","#999999")
-				$(".username img").attr('src','../img/login_later_top.png');
-				setTimeout(function () {
-			        $(".user_appear").hide();
-			    },5000);
-			})
-			$(".user_appear").mousemove(function(){
-				$(".username img").attr('src','../img/login_later_bottom.png');
-				$(".user_appear").show();
-			})
-			$(".user_appear").mouseout(function(){
-				$(".username img").attr('src','../img/login_later_top.png');
-				$(".user_appear").hide();
-			})
+//				$(".username").mousemove(function(){
+//					$(this).css("border-bottom","none")
+//					$(this).css("color","#E96228")
+//					$(".username img").attr('src','../img/login_later_bottom.png');
+//				    $(".user_appear").show();
+//				})
+//				$(".username").mouseout(function(){
+//					$(this).css("color","#999999")
+//					$(".username img").attr('src','../img/login_later_top.png');
+//				        $(".user_appear").hide();
+//				})
+			
+			
+			
+//			$(".username").mousemove(function(){
+//				$(this).css("border-bottom","none")
+//				$(this).css("color","#E96228")
+//				$(".username img").attr('src','../img/login_later_bottom.png');
+//			    $(".user_appear").show();
+//			})
+//			$(".username").mouseout(function(){
+//				$(this).css("color","#999999")
+//				$(".username img").attr('src','../img/login_later_top.png');
+//				setTimeout(function () {
+//			        $(".user_appear").hide();
+//			    },5000);
+//			})
+//			$(".user_appear").mousemove(function(){
+//				$(".username img").attr('src','../img/login_later_bottom.png');
+//				$(".user_appear").show();
+//			})
+//			$(".user_appear").mouseout(function(){
+//				$(".username img").attr('src','../img/login_later_top.png');
+//				$(".user_appear").hide();
+//			})
 
 			
 		</script>
