@@ -141,6 +141,9 @@
 	font-size: 17px;
 	margin-top:7px;
 }
+.Financial_Center_content .Financial_Center_content_middle .FinancialCenter .Financial_title_linea .hide_money .financial_notCheck_img{
+	margin-top:-9px;
+}
 .Financial_Center_content .Financial_Center_content_middle .FinancialCenter .Financial_title_linea .hide_money .hide_checkbox{
 	width:17px;
 	height:17px;

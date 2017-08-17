@@ -198,6 +198,7 @@
 }
 .Professional_safety_guarantee{
 	width:100%;
+	height:auto;
 	clear: both;
 	border-top:1px solid #E6E6E6;
 }
@@ -236,7 +237,7 @@
 	font-size: 24px;
 }
 .Professional_safety_guarantee .Professional_safety_guarantee_middle .Content_of_security_protection .Capital_security .Capital_security_cont{
-	padding:15px 30px 0;
+	padding: 15px 30px 50px;
 	font-size: 14px;
 	line-height: 22px;
 }
@@ -250,7 +251,7 @@
 	font-size: 24px;
 }
 .Professional_safety_guarantee .Professional_safety_guarantee_middle .Content_of_security_protection .System_reliability .System_reliability_cont{
-	padding:15px 25px 0;
+	padding:15px 25px 50px;
 	font-size: 14px;
 	line-height: 22px;
 }
@@ -264,7 +265,7 @@
 	font-size: 24px;
 }
 .Professional_safety_guarantee .Professional_safety_guarantee_middle .Content_of_security_protection .Legal_compliance .Legal_compliance_cont{
-	padding:15px 30px 0;
+	padding:15px 30px 50px;
 	font-size: 14px;
 	line-height: 22px;
 }
@@ -278,7 +279,7 @@
 	font-size: 24px;
 }
 .Professional_safety_guarantee .Professional_safety_guarantee_middle .Content_of_security_protection .Quick_convenient .Quick_convenient_cont{
-	padding:15px 30px 0;
+	padding:15px 30px 50px;
 	font-size: 14px;
 	line-height: 22px;
 }
